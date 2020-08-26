@@ -45,7 +45,14 @@ class SecondScreen extends StatelessWidget {
   }
 }
 
-class Content extends StatelessWidget {
+class Content extends StatefulWidget {
+  @override
+  _ContentState createState() => _ContentState();
+}
+
+class _ContentState extends State<Content> {
+  int count = 0;
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -60,6 +67,9 @@ class Content extends StatelessWidget {
                 child: new GestureDetector(
                   onTap: () {
                     print("Dutch");
+                    setState(() {
+                      count = 1;
+                    });
                   },
                   child: Image.asset(
                     'assets/images/dutch_flag.jpg',
@@ -72,6 +82,9 @@ class Content extends StatelessWidget {
                 child: new GestureDetector(
                   onTap: () {
                     print("English");
+                    setState(() {
+                      count = 2;
+                    });
                   },
                   child: Image.asset(
                     'assets/images/english_flag.jpg',
@@ -84,6 +97,9 @@ class Content extends StatelessWidget {
                 child: new GestureDetector(
                   onTap: () {
                     print("Spanish");
+                    setState(() {
+                      count = 3;
+                    });
                   },
                   child: Image.asset(
                     'assets/images/spanish_flag.png',
@@ -96,6 +112,9 @@ class Content extends StatelessWidget {
                 child: new GestureDetector(
                   onTap: () {
                     print("French");
+                    setState(() {
+                      count = 4;
+                    });
                   },
                   child: Image.asset(
                     'assets/images/french_flag.jpg',
@@ -108,6 +127,9 @@ class Content extends StatelessWidget {
                 child: new GestureDetector(
                   onTap: () {
                     print("German");
+                    setState(() {
+                      count = 5;
+                    });
                   },
                   child: Image.asset(
                     'assets/images/german_flag.jpg',
@@ -127,10 +149,7 @@ class Content extends StatelessWidget {
           onPressed: () {
             /*...*/
           },
-          child: Text(
-            "Oefen",
-            style: TextStyle(fontSize: 20.0),
-          ),
+          child: getOefen(),
         ),
         FlatButton(
           color: Colors.yellow[800],
@@ -141,10 +160,7 @@ class Content extends StatelessWidget {
           onPressed: () {
             /*...*/
           },
-          child: Text(
-            "Speel",
-            style: TextStyle(fontSize: 20.0),
-          ),
+          child: getSpeel(),
         ),
         FlatButton(
           color: Colors.red[700],
@@ -155,10 +171,7 @@ class Content extends StatelessWidget {
           onPressed: () {
             /*...*/
           },
-          child: Text(
-            "Score",
-            style: TextStyle(fontSize: 20.0),
-          ),
+          child: getScore(),
         ),
         FlatButton(
           color: Colors.green,
@@ -169,12 +182,125 @@ class Content extends StatelessWidget {
           onPressed: () {
             /*...*/
           },
-          child: Text(
-            "Over",
-            style: TextStyle(fontSize: 20.0),
-          ),
+          child: getOver(),
         ),
       ],
     );
+  }
+
+  Widget getOefen() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Oefen",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Practice",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Práctica",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Pratiquer",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Üben",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getSpeel() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Speel",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Play",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Jugar",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Jouer",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Abspielen",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getScore() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Score",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Score",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Puntuación",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "But",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Ergebnis",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getOver() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Over",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "About",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Acerca de",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "À propos",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Über",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
   }
 }
