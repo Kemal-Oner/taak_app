@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'practicescreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -147,7 +148,10 @@ class _ContentState extends State<Content> {
           disabledColor: Colors.grey,
           disabledTextColor: Colors.black,
           onPressed: () {
-            /*...*/
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => PracticeScreen()),
+            );
           },
           child: getOefen(),
         ),
@@ -180,7 +184,7 @@ class _ContentState extends State<Content> {
           disabledTextColor: Colors.black,
           padding: EdgeInsets.all(8.0),
           onPressed: () {
-            /*...*/
+            // something
           },
           child: getOver(),
         ),
