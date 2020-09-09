@@ -67,7 +67,6 @@ class _ContentState extends State<Content> {
               Expanded(
                 child: new GestureDetector(
                   onTap: () {
-                    print("Dutch");
                     setState(() {
                       count = 1;
                     });
@@ -82,7 +81,6 @@ class _ContentState extends State<Content> {
               Expanded(
                 child: new GestureDetector(
                   onTap: () {
-                    print("English");
                     setState(() {
                       count = 2;
                     });
@@ -97,7 +95,6 @@ class _ContentState extends State<Content> {
               Expanded(
                 child: new GestureDetector(
                   onTap: () {
-                    print("Spanish");
                     setState(() {
                       count = 3;
                     });
@@ -112,7 +109,6 @@ class _ContentState extends State<Content> {
               Expanded(
                 child: new GestureDetector(
                   onTap: () {
-                    print("French");
                     setState(() {
                       count = 4;
                     });
@@ -127,7 +123,6 @@ class _ContentState extends State<Content> {
               Expanded(
                 child: new GestureDetector(
                   onTap: () {
-                    print("German");
                     setState(() {
                       count = 5;
                     });

@@ -1,0 +1,22 @@
+﻿{
+    "dieren01": {
+        "ezel": {
+            "undefined": "1",
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        "paard": {
+            "undefined": "2",
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        }
+    }
+}
