@@ -1,7 +1,6 @@
 ﻿{
     "dieren01": {
         "ezel": {
-            "undefined": "1",
             "Ned": "ezel",
             "Amazigh": "aɣyul",
             "Eng": "donkey ",
@@ -10,7 +9,6 @@
             "Duits": "Esel"
         },
         "paard": {
-            "undefined": "2",
             "Ned": "paard",
             "Amazigh": "ayis",
             "Eng": "horse ",
