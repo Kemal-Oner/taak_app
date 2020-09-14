@@ -145,7 +145,11 @@ class _ContentState extends State<Content> {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => PracticeScreen()),
+              MaterialPageRoute(
+                builder: (context) => PracticeScreen(
+                  count: count,
+                ),
+              ),
             );
           },
           child: getOefen(),

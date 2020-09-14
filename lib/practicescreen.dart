@@ -43,6 +43,11 @@ _parseJsonCategories(String jsonString) {
 
 
 class PracticeScreen extends StatelessWidget {
+
+  int count;
+
+  PracticeScreen({Key key, @required this.count}) : super(key:key);
+
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -52,60 +57,322 @@ class PracticeScreen extends StatelessWidget {
         children: <Widget>[
           ListTile(
             onTap: () {
-              print("Dieren");
+              print(count);
             },
-            title: Text('Dieren'),
+            title: getDieren(),
           ),
           ListTile(
             onTap: () {
               print("Fruit");
             },
-            title: Text('Fruit'),
+            title: getFruit(),
           ),
           ListTile(
             onTap: () {
               print("Insecten");
             },
-            title: Text('Insecten'),
+            title: getInsecten(),
           ),
           ListTile(
             onTap: () {
               print("Groente");
             },
-            title: Text('Groente'),
+            title: getGroente(),
           ),
           ListTile(
             onTap: () {
               print("Dieren02");
             },
-            title: Text('Dieren02'),
+            title: getDierenTwo(),
           ),
           ListTile(
             onTap: () {
               print("Eten");
             },
-            title: Text('Eten'),
+            title: getEten(),
           ),
           ListTile(
             onTap: () {
               print("Kleding");
             },
-            title: Text('Kleding'),
+            title: getKleding(),
           ),
           ListTile(
             onTap: () {
               print("Weer");
             },
-            title: Text('Weer'),
+            title: getWeer(),
           ),
           ListTile(
             onTap: () {
               print("Kleuren");
             },
-            title: Text('Kleuren'),
+            title: getKleuren(),
           ),
         ],
       ),
     );
   }
+
+  Widget getDieren() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Dieren",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Animals",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Animales",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Animaux",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Tiere",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getFruit() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Fruit",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Fruit",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Fruta",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Fruit",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Obst",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getInsecten() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Insecten",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Insects",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Insectos",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Insectes",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Insekten",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getGroente() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Groente",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Vegetables",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Vegetal",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "légume",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Gemüse",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getDierenTwo() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Dieren 02",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Animals 02",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Animales 02",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Animaux 02",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Tiere 02",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getEten() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Eten",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Food",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Comida",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Manger",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Lebensmittel",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getKleding() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Kleding",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Clothes",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Ropa",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Vêtements",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Kleider",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getWeer() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Weer",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Weather",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Clima",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "La Météo",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Wetter",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
+  Widget getKleuren() {
+    if (count == 1 || count == 0) {
+      return Text(
+        "Kleuren",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 2) {
+      return Text(
+        "Colors",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Colores",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Couleurs",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Farben",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
+  }
+
 }
