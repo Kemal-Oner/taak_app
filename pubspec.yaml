@@ -54,7 +54,8 @@ flutter:
     - assets/images/spanish_flag.png
     - assets/images/german_flag.jpg
     - assets/images/french_flag.jpg
-    - assets/data.json
+    - assets/data/data.json
+    - assets/data/categories.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

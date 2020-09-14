@@ -1,0 +1,18 @@
+﻿{
+  "ezel": {
+    "Ned": "ezel",
+    "Amazigh": "aɣyul",
+    "Eng": "donkey ",
+    "Spaans": "burro",
+    "Frans": "âne",
+    "Duits": "Esel"
+  },
+  "paard": {
+    "Ned": "paard",
+    "Amazigh": "ayis",
+    "Eng": "horse ",
+    "Spaans": "caballo",
+    "Frans": "cheval",
+    "Duits": "Pferd"
+  }
+}

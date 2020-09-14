@@ -1,6 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 class Dieren {
   final String word;
@@ -11,8 +11,8 @@ class Dieren {
   final String fra;
   final String germ;
 
-  Dieren(this.word, this.ned, this.amazigh, this.span, this.eng, this.fra, this.germ);
-
+  Dieren(this.word, this.ned, this.amazigh, this.span, this.eng, this.fra,
+      this.germ);
 
   Dieren.fromJson(Map<String, dynamic> json)
       : word = json['dieren01'],
@@ -24,29 +24,87 @@ class Dieren {
         germ = json['qwe'];
 }
 
+Future<String> _loadCategories() async {
+  return await rootBundle.loadString('assets/data/categories.json');
+}
+
+Future loadCategories() async {
+  String jsonPath = await _loadCategories();
+  _parseJsonCategories(jsonPath);
+  return jsonPath;
+}
+
+_parseJsonCategories(String jsonString) {
+  Map decoded = jsonDecode(jsonString);
+  print(decoded.length);
+  return decoded;
+}
+
 
 
 class PracticeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ewa"),
+        title: Text("Please select a category."),
       ),
-      body: ListView(
-        children: <Text>[Text("Ewa"), Text("Ewa"), Text("Ewa")],
-        scrollDirection: Axis.horizontal,
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          String test = await DefaultAssetBundle.of(context)
-              .loadString("assets/data.json");
-          Map<String, dynamic> map = jsonDecode(test);
-
-          var dier = Dieren.fromJson(map);
-
-          print(dier.word);
-          // kjashdkjsahd
-        },
+      body: Column(
+        children: <Widget>[
+          ListTile(
+            onTap: () {
+              print("Dieren");
+            },
+            title: Text('Dieren'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Fruit");
+            },
+            title: Text('Fruit'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Insecten");
+            },
+            title: Text('Insecten'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Groente");
+            },
+            title: Text('Groente'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Dieren02");
+            },
+            title: Text('Dieren02'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Eten");
+            },
+            title: Text('Eten'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Kleding");
+            },
+            title: Text('Kleding'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Weer");
+            },
+            title: Text('Weer'),
+          ),
+          ListTile(
+            onTap: () {
+              print("Kleuren");
+            },
+            title: Text('Kleuren'),
+          ),
+        ],
       ),
     );
   }
