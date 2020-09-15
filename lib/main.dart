@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'practicescreen.dart';
+import 'categoryscreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -53,104 +53,118 @@ class Content extends StatefulWidget {
 
 class _ContentState extends State<Content> {
   int count = 0;
+  bool oefenCat = false;
+  bool speelCat = false;
 
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+//      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        Container(
-          margin: new EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 150.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Expanded(
-                child: new GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      count = 1;
-                    });
-                  },
-                  child: Image.asset(
-                    'assets/images/dutch_flag.jpg',
-                    height: 75,
-                    width: 75,
-                  ),
-                ),
+        Spacer(flex: 1,),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Expanded(
+            child: new GestureDetector(
+              onTap: () {
+                setState(() {
+                  count = 1;
+                });
+              },
+              child: Image.asset(
+                'assets/images/dutch_flag.jpg',
+                height: 55,
+                width: 55,
               ),
-              Expanded(
-                child: new GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      count = 2;
-                    });
-                  },
-                  child: Image.asset(
-                    'assets/images/english_flag.jpg',
-                    height: 75,
-                    width: 75,
-                  ),
-                ),
-              ),
-              Expanded(
-                child: new GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      count = 3;
-                    });
-                  },
-                  child: Image.asset(
-                    'assets/images/spanish_flag.png',
-                    height: 75,
-                    width: 75,
-                  ),
-                ),
-              ),
-              Expanded(
-                child: new GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      count = 4;
-                    });
-                  },
-                  child: Image.asset(
-                    'assets/images/french_flag.jpg',
-                    height: 75,
-                    width: 75,
-                  ),
-                ),
-              ),
-              Expanded(
-                child: new GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      count = 5;
-                    });
-                  },
-                  child: Image.asset(
-                    'assets/images/german_flag.jpg',
-                    height: 75,
-                    width: 75,
-                  ),
-                ),
-              ),
-            ],
+            ),
           ),
+          Expanded(
+            child: new GestureDetector(
+              onTap: () {
+                setState(() {
+                  count = 2;
+                });
+              },
+              child: Image.asset(
+                'assets/images/english_flag.jpg',
+                height: 55,
+                width: 55,
+              ),
+            ),
+          ),
+        ]),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Expanded(
+            child: new GestureDetector(
+              onTap: () {
+                setState(() {
+                  count = 5;
+                });
+              },
+              child: Image.asset(
+                'assets/images/german_flag.jpg',
+                height: 55,
+                width: 55,
+              ),
+            ),
+          ),
+        ]),
+//        Spacer(),
+        Row(
+//            mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Expanded(
+              child: new GestureDetector(
+                onTap: () {
+                  setState(() {
+                    count = 3;
+                  });
+                },
+                child: Image.asset(
+                  'assets/images/spanish_flag.png',
+                  height: 55,
+                  width: 55,
+                ),
+              ),
+            ),
+            Expanded(
+              child: new GestureDetector(
+                onTap: () {
+                  setState(() {
+                    count = 4;
+                  });
+                },
+                child: Image.asset(
+                  'assets/images/french_flag.jpg',
+                  height: 55,
+                  width: 55,
+                ),
+              ),
+            ),
+          ],
         ),
+
+        Spacer(flex: 5,),
+
         FlatButton(
           color: Colors.lightBlue[900],
           textColor: Colors.white,
           disabledColor: Colors.grey,
           disabledTextColor: Colors.black,
           onPressed: () {
+            oefenCat = true;
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => PracticeScreen(
+                builder: (context) => CategoryScreen(
                   count: count,
+                  speelCat: speelCat,
+                  oefenCat: oefenCat,
                 ),
               ),
-            );
+            ).then((value) => setState(() {
+                  speelCat = false;
+                  oefenCat = false;
+                }));
           },
           child: getOefen(),
         ),
@@ -161,7 +175,20 @@ class _ContentState extends State<Content> {
           disabledTextColor: Colors.black,
           padding: EdgeInsets.all(8.0),
           onPressed: () {
-            /*...*/
+            speelCat = true;
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => CategoryScreen(
+                  count: count,
+                  speelCat: speelCat,
+                  oefenCat: oefenCat,
+                ),
+              ),
+            ).then((value) => setState(() {
+                  speelCat = false;
+                  oefenCat = false;
+                }));
           },
           child: getSpeel(),
         ),
@@ -187,6 +214,7 @@ class _ContentState extends State<Content> {
           },
           child: getOver(),
         ),
+        Spacer(flex: 3,),
       ],
     );
   }

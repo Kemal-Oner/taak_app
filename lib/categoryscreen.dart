@@ -42,22 +42,24 @@ _parseJsonCategories(String jsonString) {
 
 
 
-class PracticeScreen extends StatelessWidget {
+class CategoryScreen extends StatelessWidget {
 
   int count;
+  bool oefenCat;
+  bool speelCat;
 
-  PracticeScreen({Key key, @required this.count}) : super(key:key);
+  CategoryScreen({Key key, @required this.count, this.oefenCat, this.speelCat}) : super(key:key);
 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Please select a category."),
+        title: getTitle(),
       ),
       body: Column(
         children: <Widget>[
           ListTile(
             onTap: () {
-              print(count);
+              print("Dieren");
             },
             title: getDieren(),
           ),
@@ -112,6 +114,34 @@ class PracticeScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Widget getTitle() {
+    if (count == 0 || count == 1) {
+      return Text(
+        "Selecteer een categorie."
+      );
+    } else if (count == 2) {
+      return Text(
+        "Please select a category.",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 3) {
+      return Text(
+        "Porfavor seleccione una categoría.",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 4) {
+      return Text(
+        "Veuillez sélectionner une catégorie.",
+        style: TextStyle(fontSize: 20.0),
+      );
+    } else if (count == 5) {
+      return Text(
+        "Bitte wählen sie eine Kategorie.",
+        style: TextStyle(fontSize: 20.0),
+      );
+    }
   }
 
   Widget getDieren() {
