@@ -59,7 +59,6 @@ class _ContentState extends State<Content> {
   @override
   Widget build(BuildContext context) {
     return Column(
-//      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Spacer(flex: 1,),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -110,7 +109,6 @@ class _ContentState extends State<Content> {
         ]),
 //        Spacer(),
         Row(
-//            mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Expanded(
               child: new GestureDetector(

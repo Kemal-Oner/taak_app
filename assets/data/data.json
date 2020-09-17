@@ -1,18 +1,124 @@
 ﻿{
-  "ezel": {
-    "Ned": "ezel",
-    "Amazigh": "aɣyul",
-    "Eng": "donkey ",
-    "Spaans": "burro",
-    "Frans": "âne",
-    "Duits": "Esel"
-  },
-  "paard": {
-    "Ned": "paard",
-    "Amazigh": "ayis",
-    "Eng": "horse ",
-    "Spaans": "caballo",
-    "Frans": "cheval",
-    "Duits": "Pferd"
-  }
+    "Dieren01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ]
 }

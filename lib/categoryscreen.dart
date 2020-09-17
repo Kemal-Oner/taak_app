@@ -24,103 +24,111 @@ class Dieren {
         germ = json['qwe'];
 }
 
-Future<String> _loadCategories() async {
-  return await rootBundle.loadString('assets/data/categories.json');
+class JsonTime {
+  static Future<String> _loadCategories() async {
+    return await rootBundle.loadString('assets/data/data.json');
+  }
+
+  static Future loadCategories() async {
+    String jsonPath = await _loadCategories();
+    _parseJsonCategories(jsonPath);
+    return jsonPath;
+  }
+
+  static _parseJsonCategories(String jsonString) {
+    Map decoded = jsonDecode(jsonString);
+    print("========================");
+    if (decoded["Dieren01"][0]["Ned"] == "ezel") {
+      print("Het is gelijk aan EZEL!");
+    }
+    print(decoded.length);
+    print("========================");
+//  return decoded;
+  }
 }
-
-Future loadCategories() async {
-  String jsonPath = await _loadCategories();
-  _parseJsonCategories(jsonPath);
-  return jsonPath;
-}
-
-_parseJsonCategories(String jsonString) {
-  Map decoded = jsonDecode(jsonString);
-  print(decoded.length);
-  return decoded;
-}
-
-
 
 class CategoryScreen extends StatelessWidget {
-
   int count;
   bool oefenCat;
   bool speelCat;
 
-  CategoryScreen({Key key, @required this.count, this.oefenCat, this.speelCat}) : super(key:key);
+  CategoryScreen({Key key, @required this.count, this.oefenCat, this.speelCat})
+      : super(key: key);
 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: getTitle(),
       ),
-      body: Column(
-        children: <Widget>[
-          ListTile(
-            onTap: () {
-              print("Dieren");
-            },
-            title: getDieren(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Fruit");
-            },
-            title: getFruit(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Insecten");
-            },
-            title: getInsecten(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Groente");
-            },
-            title: getGroente(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Dieren02");
-            },
-            title: getDierenTwo(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Eten");
-            },
-            title: getEten(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Kleding");
-            },
-            title: getKleding(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Weer");
-            },
-            title: getWeer(),
-          ),
-          ListTile(
-            onTap: () {
-              print("Kleuren");
-            },
-            title: getKleuren(),
-          ),
-        ],
-      ),
+      body: getContent(),
+    );
+  }
+
+  Widget getContent() {
+    return Column(
+      children: <Widget>[
+        ListTile(
+          onTap: () {
+            print("Dieren");
+            JsonTime.loadCategories();
+          },
+          title: getDieren(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Fruit");
+          },
+          title: getFruit(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Insecten");
+          },
+          title: getInsecten(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Groente");
+          },
+          title: getGroente(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Dieren02");
+          },
+          title: getDierenTwo(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Eten");
+          },
+          title: getEten(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Kleding");
+          },
+          title: getKleding(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Weer");
+          },
+          title: getWeer(),
+        ),
+        ListTile(
+          onTap: () {
+            print("Kleuren");
+          },
+          title: getKleuren(),
+        ),
+      ],
     );
   }
 
   Widget getTitle() {
     if (count == 0 || count == 1) {
-      return Text(
-        "Selecteer een categorie."
-      );
+      return Text("Selecteer een categorie.");
     } else if (count == 2) {
       return Text(
         "Please select a category.",
@@ -404,5 +412,4 @@ class CategoryScreen extends StatelessWidget {
       );
     }
   }
-
 }
