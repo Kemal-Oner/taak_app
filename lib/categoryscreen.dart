@@ -15,7 +15,7 @@ class Dieren {
       this.germ);
 
   Dieren.fromJson(Map<String, dynamic> json)
-      : word = json['dieren01'],
+      : word = json['Dieren01'],
         ned = json['email'],
         amazigh = json['qew'],
         span = json['qew'],
@@ -45,6 +45,7 @@ class JsonTime {
     print("========================");
 //  return decoded;
   }
+
 }
 
 class CategoryScreen extends StatelessWidget {
