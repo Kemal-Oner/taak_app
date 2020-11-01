@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:taak_app/practicescreen.dart';
 
 
 //class JsonTime {
@@ -124,7 +125,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return ListTile(
                     onTap: () {
-                      print(snapshot.data[index].categoryName);
+                      Navigator.push(context, new MaterialPageRoute(builder: (context) => practiceScreen(snapshot.data[index])));
                     },
                     title: Text(snapshot.data[index].categoryName),
                   );
