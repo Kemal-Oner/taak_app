@@ -1,11 +1,147 @@
 {
-  "dieren"  : "Dieren",
-  "fruit"   : "Fruit",
-  "insecten": "Insecten",
-  "groente" : "Groente",
-  "dieren02": "Dieren02",
-  "eten"    : "Eten",
-  "kleding" : "Kleding",
-  "weer"    : "Weer",
-  "kleuren" : "Kleuren"
+  "categoriesDutch": [
+    {
+      "naam": "Dieren"
+    },
+    {
+      "naam": "Fruit"
+    },
+    {
+      "naam": "Insecten"
+    },
+    {
+      "naam": "Groente"
+    },
+    {
+      "naam": "Dieren02"
+    },
+    {
+      "naam": "Eten"
+    },
+    {
+      "naam": "Kleding"
+    },
+    {
+      "naam": "Weer"
+    },
+    {
+      "naam": "Kleuren"
+    }
+  ],
+  "categoriesEnglish": [
+    {
+      "naam": "Animals"
+    },
+    {
+      "naam": "Fruit"
+    },
+    {
+      "naam": "Insects"
+    },
+    {
+      "naam": "Vegetables"
+    },
+    {
+      "naam": "Animals02"
+    },
+    {
+      "naam": "Food"
+    },
+    {
+      "naam": "Clothing"
+    },
+    {
+      "naam": "Weather"
+    },
+    {
+      "naam": "Colors"
+    }
+  ],
+  "categoriesGerman": [
+    {
+      "naam": "Tiere"
+    },
+    {
+      "naam": "Obst"
+    },
+    {
+      "naam": "Insekten"
+    },
+    {
+      "naam": "Gemüse"
+    },
+    {
+      "naam": "Tiere 02"
+    },
+    {
+      "naam": "Lebensmittel"
+    },
+    {
+      "naam": "Kleider"
+    },
+    {
+      "naam": "Wetter"
+    },
+    {
+      "naam": "Farben"
+    }
+  ],
+  "categoriesSpanish": [
+    {
+      "naam": "Animales"
+    },
+    {
+      "naam": "Fruta"
+    },
+    {
+      "naam": "Insectos"
+    },
+    {
+      "naam": "Vegetal"
+    },
+    {
+      "naam": "Animales 02"
+    },
+    {
+      "naam": "Comida"
+    },
+    {
+      "naam": "Ropa"
+    },
+    {
+      "naam": "Clima"
+    },
+    {
+      "naam": "Colores"
+    }
+  ],
+  "categoriesFrench": [
+    {
+      "naam": "Animaux"
+    },
+    {
+      "naam": "Fruit"
+    },
+    {
+      "naam": "Insectes"
+    },
+    {
+      "naam": "légume"
+    },
+    {
+      "naam": "Animaux 02"
+    },
+    {
+      "naam": "Manger"
+    },
+    {
+      "naam": "Vêtements"
+    },
+    {
+      "naam": "La Météo"
+    },
+    {
+      "naam": "Couleurs"
+    }
+  ]
 }
