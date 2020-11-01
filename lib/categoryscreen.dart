@@ -3,35 +3,37 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+
+//class JsonTime {
+//  static Future<String> _loadCategories() async {
+//    return await rootBundle.loadString('assets/data/data.json');
+//  }
+//
+//  static Future loadCategories() async {
+//    String jsonPath = await _loadCategories();
+//    _parseJsonCategories(jsonPath);
+//    return jsonPath;
+//  }
+//
+//  static _parseJsonCategories(String jsonString) {
+//    Map decoded = jsonDecode(jsonString);
+//    print("========================");
+//    if (decoded["Dieren01"][0]["Ned"] == "ezel") {
+//      print("Het is gelijk aan EZEL!");
+//    }
+//    print(decoded.length);
+//    print("========================");
+////  return decoded;
+//  }
+//
+//}
+
 class Categories {
   final String categoryName;
 
   Categories(this.categoryName);
 }
 
-class JsonTime {
-  static Future<String> _loadCategories() async {
-    return await rootBundle.loadString('assets/data/data.json');
-  }
-
-  static Future loadCategories() async {
-    String jsonPath = await _loadCategories();
-    _parseJsonCategories(jsonPath);
-    return jsonPath;
-  }
-
-  static _parseJsonCategories(String jsonString) {
-    Map decoded = jsonDecode(jsonString);
-    print("========================");
-    if (decoded["Dieren01"][0]["Ned"] == "ezel") {
-      print("Het is gelijk aan EZEL!");
-    }
-    print(decoded.length);
-    print("========================");
-//  return decoded;
-  }
-
-}
 
 class CategoryScreen extends StatefulWidget {
   int count;
