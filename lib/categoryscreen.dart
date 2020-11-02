@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'dart:async';
+import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:taak_app/playscreen.dart';
 import 'package:taak_app/practicescreen.dart';
-
 
 //class JsonTime {
 //  static Future<String> _loadCategories() async {
@@ -35,7 +36,6 @@ class Categories {
   Categories(this.categoryName);
 }
 
-
 class CategoryScreen extends StatefulWidget {
   int count;
   bool oefenCat;
@@ -57,31 +57,31 @@ class _CategoryScreenState extends State<CategoryScreen> {
 
     List<Categories> categories = [];
 
-    if(widget.count == 0 || widget.count == 1) {
+    if (widget.count == 0 || widget.count == 1) {
       for (var i in jsonData["categoriesDutch"]) {
         Categories category = Categories(i["naam"]);
 
         categories.add(category);
       }
-    } else if(widget.count == 2) {
+    } else if (widget.count == 2) {
       for (var i in jsonData["categoriesEnglish"]) {
         Categories category = Categories(i["naam"]);
 
         categories.add(category);
       }
-    } else if(widget.count == 3) {
+    } else if (widget.count == 3) {
       for (var i in jsonData["categoriesSpanish"]) {
         Categories category = Categories(i["naam"]);
 
         categories.add(category);
       }
-    } else if(widget.count == 4) {
+    } else if (widget.count == 4) {
       for (var i in jsonData["categoriesFrench"]) {
         Categories category = Categories(i["naam"]);
 
         categories.add(category);
       }
-    } else if(widget.count == 5) {
+    } else if (widget.count == 5) {
       for (var i in jsonData["categoriesGerman"]) {
         Categories category = Categories(i["naam"]);
 
@@ -89,8 +89,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
       }
     }
 
-
-    print(categories.length);
     return categories;
   }
 
@@ -106,11 +104,10 @@ class _CategoryScreenState extends State<CategoryScreen> {
   Widget getContent() {
     return Column(
       children: <Widget>[
-
         FutureBuilder(
           future: _getCategories(),
           builder: (BuildContext context, AsyncSnapshot snapshot) {
-            if(snapshot.data == null ) {
+            if (snapshot.data == null) {
               return Container(
                 child: Center(
                   child: Text("Loading..."),
@@ -125,14 +122,27 @@ class _CategoryScreenState extends State<CategoryScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return ListTile(
                     onTap: () {
-                      Navigator.push(context, new MaterialPageRoute(builder: (context) => practiceScreen(snapshot.data[index])));
+                      if (widget.oefenCat == true) {
+                        Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) => PracticeScreen(
+                                    snapshot.data[index], widget.oefenCat, widget.count)));
+                      }
+
+                      if (widget.speelCat == true) {
+                        Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) => playScreen(
+                                    snapshot.data[index], widget.speelCat, widget.count)));
+                      }
                     },
                     title: Text(snapshot.data[index].categoryName),
                   );
                 });
           },
         )
-
       ],
     );
   }

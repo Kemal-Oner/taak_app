@@ -1,147 +1,147 @@
 {
   "categoriesDutch": [
     {
-      "naam": "Dieren"
+      "naam": "dieren01"
     },
     {
-      "naam": "Fruit"
+      "naam": "fruit"
     },
     {
-      "naam": "Insecten"
+      "naam": "insecten"
     },
     {
-      "naam": "Groente"
+      "naam": "groente"
     },
     {
-      "naam": "Dieren02"
+      "naam": "dieren02"
     },
     {
-      "naam": "Eten"
+      "naam": "eten"
     },
     {
-      "naam": "Kleding"
+      "naam": "kleding"
     },
     {
-      "naam": "Weer"
+      "naam": "weer"
     },
     {
-      "naam": "Kleuren"
+      "naam": "kleuren"
     }
   ],
   "categoriesEnglish": [
     {
-      "naam": "Animals"
+      "naam": "animals01"
     },
     {
-      "naam": "Fruit"
+      "naam": "fruit"
     },
     {
-      "naam": "Insects"
+      "naam": "insects"
     },
     {
-      "naam": "Vegetables"
+      "naam": "vegetables"
     },
     {
-      "naam": "Animals02"
+      "naam": "animals02"
     },
     {
-      "naam": "Food"
+      "naam": "food"
     },
     {
-      "naam": "Clothing"
+      "naam": "clothing"
     },
     {
-      "naam": "Weather"
+      "naam": "weather"
     },
     {
-      "naam": "Colors"
+      "naam": "colors"
     }
   ],
   "categoriesGerman": [
     {
-      "naam": "Tiere"
+      "naam": "tiere01"
     },
     {
-      "naam": "Obst"
+      "naam": "obst"
     },
     {
-      "naam": "Insekten"
+      "naam": "insekten"
     },
     {
-      "naam": "Gemüse"
+      "naam": "gemüse"
     },
     {
-      "naam": "Tiere 02"
+      "naam": "tiere02"
     },
     {
-      "naam": "Lebensmittel"
+      "naam": "lebensmittel"
     },
     {
-      "naam": "Kleider"
+      "naam": "kleider"
     },
     {
-      "naam": "Wetter"
+      "naam": "wetter"
     },
     {
-      "naam": "Farben"
+      "naam": "farben"
     }
   ],
   "categoriesSpanish": [
     {
-      "naam": "Animales"
+      "naam": "animales01"
     },
     {
-      "naam": "Fruta"
+      "naam": "fruta"
     },
     {
-      "naam": "Insectos"
+      "naam": "insectos"
     },
     {
-      "naam": "Vegetal"
+      "naam": "vegetal"
     },
     {
-      "naam": "Animales 02"
+      "naam": "animales02"
     },
     {
-      "naam": "Comida"
+      "naam": "comida"
     },
     {
-      "naam": "Ropa"
+      "naam": "ropa"
     },
     {
-      "naam": "Clima"
+      "naam": "clima"
     },
     {
-      "naam": "Colores"
+      "naam": "colores"
     }
   ],
   "categoriesFrench": [
     {
-      "naam": "Animaux"
+      "naam": "animaux01"
     },
     {
-      "naam": "Fruit"
+      "naam": "fruit"
     },
     {
-      "naam": "Insectes"
+      "naam": "insectes"
     },
     {
       "naam": "légume"
     },
     {
-      "naam": "Animaux 02"
+      "naam": "animaux02"
     },
     {
-      "naam": "Manger"
+        "naam": "manger"
     },
     {
-      "naam": "Vêtements"
+      "naam": "vetements"
     },
     {
-      "naam": "La Météo"
+      "naam": "lamétéo"
     },
     {
-      "naam": "Couleurs"
+      "naam": "couleurs"
     }
   ]
 }
