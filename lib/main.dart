@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+import 'AboutUsScreen.dart';
 import 'categoryscreen.dart';
 
 void main() {
@@ -208,7 +209,12 @@ class _ContentState extends State<Content> {
           disabledTextColor: Colors.black,
           padding: EdgeInsets.all(8.0),
           onPressed: () {
-            // something
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => AboutUsScreen(count),
+              ),
+            );
           },
           child: getOver(),
         ),
