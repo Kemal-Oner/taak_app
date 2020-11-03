@@ -4,6 +4,7 @@ import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:taak_app/playscreen.dart';
+import 'package:http/http.dart' as http;
 import 'package:taak_app/practicescreen.dart';
 
 //class JsonTime {
@@ -51,9 +52,22 @@ class CategoryScreen extends StatefulWidget {
 class _CategoryScreenState extends State<CategoryScreen> {
 
   Future<List<Categories>> _getCategories() async {
-    var data = await rootBundle.loadString('assets/data/categories.json');
+    // set up POST request arguments
+    String url = 'http://10.0.2.2:8000/api/jsonData';
+    Map<String, String> headers = {"Content-type": "application/json"};
+    // make GET request
+    http.Response response = await http.get(url, headers: headers);
+    // check the status code for the result
 
-    var jsonData = json.decode(data);
+//    var data = await rootBundle.loadString('assets/data/categories.json');
+
+    var jsonData = json.decode(response.body.toString());
+
+    print('object');
+    print('object');
+    print(jsonData);
+    print('object');
+    print('object');
 
     List<Categories> categories = [];
 
