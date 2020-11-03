@@ -124,13 +124,6 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     new FlatButton(
                       textColor: Colors.white,
                       onPressed: () {
-                        final assetsAudioPlayer = AssetsAudioPlayer();
-
-                        assetsAudioPlayer.open(
-                          Audio.file("assets/audios/song1.mp3"),
-                        );
-
-                        assetsAudioPlayer.play();
                       },
                       color: Colors.blue,
                       child:
