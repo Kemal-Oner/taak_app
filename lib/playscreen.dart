@@ -16,8 +16,8 @@ class playCategories {
   final String frans;
   final String duits;
 
-  playCategories(
-      this.ned, this.amazigh, this.eng, this.spaans, this.frans, this.duits);
+  playCategories(this.ned, this.amazigh, this.eng, this.spaans, this.frans,
+      this.duits);
 }
 
 class playScreen extends StatefulWidget {
@@ -35,7 +35,7 @@ class _playScreenState extends State<playScreen> {
   var random = new Random();
   List answerArray = [];
   List picturesArray = [];
-  List arrayLength = [];
+  List allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
   int tryCount = 0;
 
   Future<List<playCategories>> _getPlayCategories() async {
@@ -142,40 +142,78 @@ class _playScreenState extends State<playScreen> {
           fontSize: 40),
     );
   }
+  int indexOfAnswer;
+  List pictureArray = [];
 
   Widget pictureBuilder(AsyncSnapshot snapshot) {
-    int randomNumber = answerArray[0];
-    while (picturesArray.contains(randomNumber)) {
-      randomNumber = random.nextInt(11);
+    int answer = answerArray[answerArray.length - 2];
+    pictureArray = List.from(allIds);
+    while(pictureArray.length > 6) {
+      int index = random.nextInt(pictureArray.length);
+      pictureArray.removeAt(index);
     }
-    picturesArray.add(randomNumber);
+    if(!pictureArray.contains(answer)) {
+      int index = random.nextInt(pictureArray.length);
+      pictureArray.removeAt(index);
+      pictureArray.add(answer);
+    }
+    pictureArray.shuffle();
+    indexOfAnswer = pictureArray.indexOf(answer);
+    print(pictureArray.length);
+    int randomizer = random.nextInt(pictureArray.length);
+    print('aaaaaaa');
+    print(randomizer);
+    print('aaaaaaa');
+
+//    while (allIds.length > 6) {
+//      allIds.removeAt(3);
+//      allIds.shuffle();
+//      if(allIds.contains(answerArray[0])) {
+//        indexOfAnswer = allIds.indexOf(answerArray[0]);
+//      } else {
+//        allIds.removeAt(3);
+//        allIds.add(answerArray[0]);
+//        allIds.shuffle();
+//        indexOfAnswer = allIds.indexOf(answerArray[0]);
+//      }
+//      print(allIds);
+//    }
+//      picturesArray.add(randomNumber);
     return GestureDetector(
       onTap: () {
-        if (snapshot.data[randomNumber].ned == answerArray[1]) {
-          Fluttertoast.showToast(
-              msg: tryCount.toString(),
-              toastLength: Toast.LENGTH_SHORT,
-              gravity: ToastGravity.BOTTOM,
-              timeInSecForIosWeb: 1,
-              backgroundColor: Colors.red,
-              textColor: Colors.white,
-              fontSize: 16.0);
-          setState(() {
-            answerArray.clear();
-            picturesArray.clear();
-            tryCount = 0;
-          });
-        } else {
-          tryCount += 1;
-          Fluttertoast.showToast(
-              msg: "Probeer het nog een keer",
-              toastLength: Toast.LENGTH_SHORT,
-              gravity: ToastGravity.BOTTOM,
-              timeInSecForIosWeb: 1,
-              backgroundColor: Colors.grey,
-              textColor: Colors.white,
-              fontSize: 16.0);
-        }
+        print(snapshot.data[pictureArray[randomizer]].ned);
+        print(answerArray[1]);
+        print('assets/images/'      +
+            widget.category.categoryName +
+            '_' +
+            snapshot.data[pictureArray[randomizer]].ned +
+            '.jpg');
+//        if (snapshot.data[pictureArray[randomizer]].ned == answerArray[1]) {
+//          Fluttertoast.showToast(
+//              msg: tryCount.toString(),
+//              toastLength: Toast.LENGTH_SHORT,
+//              gravity: ToastGravity.BOTTOM,
+//              timeInSecForIosWeb: 1,
+//              backgroundColor: Colors.red,
+//              textColor: Colors.white,
+//              fontSize: 16.0);
+//          setState(() {
+//            answerArray.clear();
+//            picturesArray.clear();
+//            allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+//            tryCount = 0;
+//          });
+//        } else {
+//          tryCount += 1;
+//          Fluttertoast.showToast(
+//              msg: "Probeer het nog een keer",
+//              toastLength: Toast.LENGTH_SHORT,
+//              gravity: ToastGravity.BOTTOM,
+//              timeInSecForIosWeb: 1,
+//              backgroundColor: Colors.grey,
+//              textColor: Colors.white,
+//              fontSize: 16.0);
+//        }
       },
       child: new SizedBox(
         child: new Container(
@@ -183,7 +221,7 @@ class _playScreenState extends State<playScreen> {
             'assets/images/' +
                 widget.category.categoryName +
                 '_' +
-                snapshot.data[randomNumber].ned +
+                snapshot.data[pictureArray[randomizer]].ned +
                 '.jpg',
             fit: BoxFit.contain,
             height: 150.0,
