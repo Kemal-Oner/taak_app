@@ -95,27 +95,27 @@ class _playScreenState extends State<playScreen> {
                   new Row(
                     children: <Widget>[
                       new Spacer(),
-                      jowed(snapshot),
+                      pictureBuilder(snapshot),
                       new Spacer(),
-                      jowed(snapshot),
-                      new Spacer(),
-                    ],
-                  ),
-                  new Row(
-                    children: <Widget>[
-                      new Spacer(),
-                      jowed(snapshot),
-                      new Spacer(),
-                      jowed(snapshot),
+                      pictureBuilder(snapshot),
                       new Spacer(),
                     ],
                   ),
                   new Row(
                     children: <Widget>[
                       new Spacer(),
-                      jowed(snapshot),
+                      pictureBuilder(snapshot),
                       new Spacer(),
-                      jowed(snapshot),
+                      pictureBuilder(snapshot),
+                      new Spacer(),
+                    ],
+                  ),
+                  new Row(
+                    children: <Widget>[
+                      new Spacer(),
+                      pictureBuilder(snapshot),
+                      new Spacer(),
+                      pictureBuilder(snapshot),
                       new Spacer(),
                     ],
                   ),
@@ -143,7 +143,7 @@ class _playScreenState extends State<playScreen> {
     );
   }
 
-  Widget jowed(AsyncSnapshot snapshot) {
+  Widget pictureBuilder(AsyncSnapshot snapshot) {
     int randomNumber = answerArray[0];
     while (picturesArray.contains(randomNumber)) {
       randomNumber = random.nextInt(11);
