@@ -127,8 +127,27 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     new FlatButton(
                       textColor: Colors.white,
                       onPressed: () {
+                        if(widget.category.categoryName == 'dieren01' || widget.category.categoryName == 'animals01' || widget.category.categoryName == 'tiere01' || widget.category.categoryName == 'animales01' || widget.category.categoryName == 'animaux01' ) {
+                          player.play('dieren01' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'fruit' || widget.category.categoryName == 'obst' || widget.category.categoryName == 'fruta') {
+                          player.play('fruit' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'insecten' || widget.category.categoryName == 'insects' || widget.category.categoryName == 'insekten' || widget.category.categoryName == 'insectos' || widget.category.categoryName == 'insectes' ) {
+                          player.play('insecten' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'groente' || widget.category.categoryName == 'vegetables' || widget.category.categoryName == 'gemüse' || widget.category.categoryName == 'vegetal' || widget.category.categoryName == 'légume' ) {
+                          player.play('groente' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'dieren02' || widget.category.categoryName == 'animals02' || widget.category.categoryName == 'tiere02' || widget.category.categoryName == 'animales02' || widget.category.categoryName == 'animaux02' ) {
+                          player.play('dieren02' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'eten' || widget.category.categoryName == 'food' || widget.category.categoryName == 'lebensmittel' || widget.category.categoryName == 'comida' || widget.category.categoryName == 'manger' ) {
+                          player.play('eten' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'kleding' || widget.category.categoryName == 'clothing' || widget.category.categoryName == 'kleider' || widget.category.categoryName == 'ropa' || widget.category.categoryName == 'vetements' ) {
+                          player.play('kleding' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'weer' || widget.category.categoryName == 'weather' || widget.category.categoryName == 'wetter' || widget.category.categoryName == 'clima' || widget.category.categoryName == 'lamétéo' ) {
+                          player.play('weer' + '_' + snapshot.data[index].ned + '.mp3');
+                        } else if(widget.category.categoryName == 'kleuren' || widget.category.categoryName == 'colors' || widget.category.categoryName == 'farben' || widget.category.categoryName == 'colores' || widget.category.categoryName == 'couleurs' ) {
+                          player.play('kleuren' + '_' + snapshot.data[index].ned + '.mp3');
+                        }
                         print(widget.category.categoryName + '_' + snapshot.data[index].ned + '.mp3');
-                        player.play(widget.category.categoryName + '_' + snapshot.data[index].ned + '.mp3');
+//                        player.play(widget.category.categoryName + '_' + snapshot.data[index].ned + '.mp3');
                       },
                       color: Colors.blue,
                       child:
@@ -143,5 +162,6 @@ class _PracticeScreenState extends State<PracticeScreen> {
         },
       ),
     );
+
   }
 }
