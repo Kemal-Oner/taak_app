@@ -6,6 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:taak_app/categoryscreen.dart';
+import 'package:audioplayers/audio_cache.dart';
+
+final AudioCache player = AudioCache(prefix: 'assets/audio/');
 
 class practiceCategories {
   final String ned;
@@ -124,6 +127,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     new FlatButton(
                       textColor: Colors.white,
                       onPressed: () {
+                        print(widget.category.categoryName + '_' + snapshot.data[index].ned + '.mp3');
+                        player.play(widget.category.categoryName + '_' + snapshot.data[index].ned + '.mp3');
                       },
                       color: Colors.blue,
                       child:

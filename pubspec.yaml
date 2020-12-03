@@ -19,6 +19,7 @@ environment:
 dependencies:
   assets_audio_player: ^2.0.11
   fluttertoast: ^7.1.1
+  audioplayers: ^0.17.0
   flutter:
     sdk: flutter
 
