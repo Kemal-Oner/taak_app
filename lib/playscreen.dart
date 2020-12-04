@@ -80,7 +80,7 @@ class _playScreenState extends State<playScreen> {
             ),
           );
         }
-
+//
         return ListView.builder(
           itemBuilder: (BuildContext context, int index) {
             return new SizedBox(
@@ -133,6 +133,7 @@ class _playScreenState extends State<playScreen> {
     int randomNumber = random.nextInt(11);
     answerArray.add(randomNumber);
     answerArray.add(snapshot.data[randomNumber].ned);
+    print(answerArray);
     return new Text(
       snapshot.data[randomNumber].amazigh,
       style: TextStyle(
@@ -144,8 +145,10 @@ class _playScreenState extends State<playScreen> {
   }
   int indexOfAnswer;
   List pictureArray = [];
+  int jowed = 0;
 
   Widget pictureBuilder(AsyncSnapshot snapshot) {
+    if(jowed == 0) {
     int answer = answerArray[answerArray.length - 2];
     pictureArray = List.from(allIds);
     while(pictureArray.length > 6) {
@@ -158,13 +161,15 @@ class _playScreenState extends State<playScreen> {
       pictureArray.add(answer);
     }
     pictureArray.shuffle();
+    print(pictureArray.toString());
     indexOfAnswer = pictureArray.indexOf(answer);
     print(pictureArray.length);
+    print('aaaaaaa');
+    jowed++;
+    }
     int randomizer = random.nextInt(pictureArray.length);
     print('aaaaaaa');
     print(randomizer);
-    print('aaaaaaa');
-
 //    while (allIds.length > 6) {
 //      allIds.removeAt(3);
 //      allIds.shuffle();
@@ -188,6 +193,32 @@ class _playScreenState extends State<playScreen> {
             '_' +
             snapshot.data[pictureArray[randomizer]].ned +
             '.jpg');
+        if (snapshot.data[pictureArray[randomizer]].ned == answerArray[1]) {
+          Fluttertoast.showToast(
+             msg: tryCount.toString(),
+             toastLength: Toast.LENGTH_SHORT,
+             gravity: ToastGravity.BOTTOM,
+             timeInSecForIosWeb: 1,
+             backgroundColor: Colors.red,
+             textColor: Colors.white,
+             fontSize: 16.0);
+          setState(() {
+           answerArray.clear();
+           picturesArray.clear();
+           allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+           tryCount = 0;
+         });
+       } else {
+         tryCount += 1;
+         Fluttertoast.showToast(
+             msg: "Probeer het nog een keer",
+             toastLength: Toast.LENGTH_SHORT,
+             gravity: ToastGravity.BOTTOM,
+             timeInSecForIosWeb: 1,
+             backgroundColor: Colors.grey,
+             textColor: Colors.white,
+             fontSize: 16.0);
+       }
 //        if (snapshot.data[pictureArray[randomizer]].ned == answerArray[1]) {
 //          Fluttertoast.showToast(
 //              msg: tryCount.toString(),
