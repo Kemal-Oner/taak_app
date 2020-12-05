@@ -16,8 +16,8 @@ class playCategories {
   final String frans;
   final String duits;
 
-  playCategories(this.ned, this.amazigh, this.eng, this.spaans, this.frans,
-      this.duits);
+  playCategories(
+      this.ned, this.amazigh, this.eng, this.spaans, this.frans, this.duits);
 }
 
 class playScreen extends StatefulWidget {
@@ -129,13 +129,22 @@ class _playScreenState extends State<playScreen> {
     );
   }
 
+  int preventMulti = 0;
+
   Widget getAnswerText(AsyncSnapshot snapshot) {
     int randomNumber = random.nextInt(11);
-    answerArray.add(randomNumber);
-    answerArray.add(snapshot.data[randomNumber].ned);
+    if(answerArray.length < 2) {
+      answerArray.add(randomNumber);
+      answerArray.add(snapshot.data[randomNumber].ned);
+      print('jowed');
+      print(answerArray.length);
+      print('jowed');
+    }
+    print(answerArray.length);
     print(answerArray);
+    preventMulti = 0;
     return new Text(
-      snapshot.data[randomNumber].amazigh,
+      snapshot.data[answerArray[0]].amazigh,
       style: TextStyle(
           color: Colors.grey[800],
           fontWeight: FontWeight.w900,
@@ -143,32 +152,35 @@ class _playScreenState extends State<playScreen> {
           fontSize: 40),
     );
   }
+
   int indexOfAnswer;
   List pictureArray = [];
-  int jowed = 0;
+
 
   Widget pictureBuilder(AsyncSnapshot snapshot) {
-    if(jowed == 0) {
-    int answer = answerArray[answerArray.length - 2];
-    pictureArray = List.from(allIds);
-    while(pictureArray.length > 6) {
-      int index = random.nextInt(pictureArray.length);
-      pictureArray.removeAt(index);
-    }
-    if(!pictureArray.contains(answer)) {
-      int index = random.nextInt(pictureArray.length);
-      pictureArray.removeAt(index);
-      pictureArray.add(answer);
-    }
-    pictureArray.shuffle();
-    print(pictureArray.toString());
-    indexOfAnswer = pictureArray.indexOf(answer);
-    print(pictureArray.length);
-    print('aaaaaaa');
-    jowed++;
+    if (preventMulti == 0) {
+      int answer = answerArray[answerArray.length - 2];
+      pictureArray = List.from(allIds);
+      while (pictureArray.length > 6) {
+        int index = random.nextInt(pictureArray.length);
+        pictureArray.removeAt(index);
+      }
+      if (!pictureArray.contains(answer)) {
+        int index = random.nextInt(pictureArray.length);
+        pictureArray.removeAt(index);
+        pictureArray.add(answer);
+      }
+      pictureArray.shuffle();
+      print(pictureArray.toString());
+      indexOfAnswer = pictureArray.indexOf(answer);
+      print('asdasdasddas');
+      print(indexOfAnswer);
+      // print(pictureArray.length);
+      // print('aaaaaaa');
+      preventMulti++;
     }
     int randomizer = random.nextInt(pictureArray.length);
-    print('aaaaaaa');
+    // print('aaaaaaa');
     print(randomizer);
 //    while (allIds.length > 6) {
 //      allIds.removeAt(3);
@@ -188,37 +200,56 @@ class _playScreenState extends State<playScreen> {
       onTap: () {
         print(snapshot.data[pictureArray[randomizer]].ned);
         print(answerArray[1]);
-        print('assets/images/'      +
+        print('assets/images/' +
             widget.category.categoryName +
             '_' +
             snapshot.data[pictureArray[randomizer]].ned +
             '.jpg');
         if (snapshot.data[pictureArray[randomizer]].ned == answerArray[1]) {
           Fluttertoast.showToast(
-             msg: tryCount.toString(),
-             toastLength: Toast.LENGTH_SHORT,
-             gravity: ToastGravity.BOTTOM,
-             timeInSecForIosWeb: 1,
-             backgroundColor: Colors.red,
-             textColor: Colors.white,
-             fontSize: 16.0);
+              msg: tryCount.toString(),
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              timeInSecForIosWeb: 1,
+              backgroundColor: Colors.red,
+              textColor: Colors.white,
+              fontSize: 16.0);
           setState(() {
-           answerArray.clear();
-           picturesArray.clear();
-           allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-           tryCount = 0;
-         });
-       } else {
-         tryCount += 1;
-         Fluttertoast.showToast(
-             msg: "Probeer het nog een keer",
-             toastLength: Toast.LENGTH_SHORT,
-             gravity: ToastGravity.BOTTOM,
-             timeInSecForIosWeb: 1,
-             backgroundColor: Colors.grey,
-             textColor: Colors.white,
-             fontSize: 16.0);
-       }
+            answerArray.clear();
+            pictureArray.clear();
+            preventMulti = 0;
+            allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+            tryCount = 0;
+          });
+        } else {
+          tryCount += 1;
+          if (tryCount == 3) {
+            Fluttertoast.showToast(
+                msg: "Je hebt 3 keer geprobeerd a sbe3, volgende ..",
+                toastLength: Toast.LENGTH_SHORT,
+                gravity: ToastGravity.BOTTOM,
+                timeInSecForIosWeb: 1,
+                backgroundColor: Colors.grey,
+                textColor: Colors.white,
+                fontSize: 16.0);
+            setState(() {
+              answerArray.clear();
+              pictureArray.clear();
+              preventMulti = 0;
+              allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+              tryCount = 0;
+            });
+          } else {
+            Fluttertoast.showToast(
+                msg: "Probeer het nog een keer",
+                toastLength: Toast.LENGTH_SHORT,
+                gravity: ToastGravity.BOTTOM,
+                timeInSecForIosWeb: 1,
+                backgroundColor: Colors.grey,
+                textColor: Colors.white,
+                fontSize: 16.0);
+          }
+        }
 //        if (snapshot.data[pictureArray[randomizer]].ned == answerArray[1]) {
 //          Fluttertoast.showToast(
 //              msg: tryCount.toString(),
