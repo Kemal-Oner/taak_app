@@ -1,0 +1,147 @@
+{
+  "categoriesDutch": [
+    {
+      "naam": "dieren01"
+    },
+    {
+      "naam": "fruit"
+    },
+    {
+      "naam": "insecten"
+    },
+    {
+      "naam": "groente"
+    },
+    {
+      "naam": "dieren02"
+    },
+    {
+      "naam": "eten"
+    },
+    {
+      "naam": "kleding"
+    },
+    {
+      "naam": "weer"
+    },
+    {
+      "naam": "kleuren"
+    }
+  ],
+  "categoriesEnglish": [
+    {
+      "naam": "animals01"
+    },
+    {
+      "naam": "fruit"
+    },
+    {
+      "naam": "insects"
+    },
+    {
+      "naam": "vegetables"
+    },
+    {
+      "naam": "animals02"
+    },
+    {
+      "naam": "food"
+    },
+    {
+      "naam": "clothing"
+    },
+    {
+      "naam": "weather"
+    },
+    {
+      "naam": "colors"
+    }
+  ],
+  "categoriesGerman": [
+    {
+      "naam": "tiere01"
+    },
+    {
+      "naam": "obst"
+    },
+    {
+      "naam": "insekten"
+    },
+    {
+      "naam": "gemüse"
+    },
+    {
+      "naam": "tiere02"
+    },
+    {
+      "naam": "lebensmittel"
+    },
+    {
+      "naam": "kleider"
+    },
+    {
+      "naam": "wetter"
+    },
+    {
+      "naam": "farben"
+    }
+  ],
+  "categoriesSpanish": [
+    {
+      "naam": "animales01"
+    },
+    {
+      "naam": "fruta"
+    },
+    {
+      "naam": "insectos"
+    },
+    {
+      "naam": "vegetal"
+    },
+    {
+      "naam": "animales02"
+    },
+    {
+      "naam": "comida"
+    },
+    {
+      "naam": "ropa"
+    },
+    {
+      "naam": "clima"
+    },
+    {
+      "naam": "colores"
+    }
+  ],
+  "categoriesFrench": [
+    {
+      "naam": "animaux01"
+    },
+    {
+      "naam": "fruit"
+    },
+    {
+      "naam": "insectes"
+    },
+    {
+      "naam": "légume"
+    },
+    {
+      "naam": "animaux02"
+    },
+    {
+        "naam": "manger"
+    },
+    {
+      "naam": "vetements"
+    },
+    {
+      "naam": "lamétéo"
+    },
+    {
+      "naam": "couleurs"
+    }
+  ]
+}

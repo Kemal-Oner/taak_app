@@ -1,0 +1,5048 @@
+﻿{
+    "dieren01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ],
+    "fruit": [
+        {
+            "Ned": "appel",
+            "Amazigh": "tateffaht",
+            "Eng": "apple ",
+            "Spaans": "manzana",
+            "Frans": "pomme",
+            "Duits": "Apfel"
+        },
+        {
+            "Ned": "peer",
+            "Amazigh": "tafirast",
+            "Eng": "pear ",
+            "Spaans": "pera",
+            "Frans": "poire",
+            "Duits": "Birne"
+        },
+        {
+            "Ned": "abrikoos",
+            "Amazigh": "rmecmac",
+            "Eng": "apricot ",
+            "Spaans": "albaricoque",
+            "Frans": "abricot",
+            "Duits": "Aprikose"
+        },
+        {
+            "Ned": "perzik",
+            "Amazigh": "rxux",
+            "Eng": "peach ",
+            "Spaans": "melocotón",
+            "Frans": "pêche",
+            "Duits": "Pfirsich"
+        },
+        {
+            "Ned": "druiven",
+            "Amazigh": "aḍil",
+            "Eng": "grapes ",
+            "Spaans": "uvas",
+            "Frans": "raisins",
+            "Duits": "Trauben"
+        },
+        {
+            "Ned": "watermeloen",
+            "Amazigh": "ddellaɛ",
+            "Eng": "watermelon ",
+            "Spaans": "sandía",
+            "Frans": "pastèque",
+            "Duits": "Wassermelone"
+        },
+        {
+            "Ned": "honingmeloen",
+            "Amazigh": "abettix",
+            "Eng": "honey dew melon",
+            "Spaans": "melón de miel",
+            "Frans": "melon de miel",
+            "Duits": "Honigmelone"
+        },
+        {
+            "Ned": "granaatappel",
+            "Amazigh": "arremman",
+            "Eng": "pomegranate",
+            "Spaans": "granada",
+            "Frans": "grenade",
+            "Duits": "Granatapfel"
+        },
+        {
+            "Ned": "vijg",
+            "Amazigh": "tazart",
+            "Eng": "fig ",
+            "Spaans": "higo",
+            "Frans": "figue",
+            "Duits": "Feige"
+        },
+        {
+            "Ned": "cactusvijg",
+            "Amazigh": "tahendict",
+            "Eng": "cactus pear",
+            "Spaans": "higo chumbo",
+            "Frans": "figue de barbarie",
+            "Duits": "Kaktusfeige"
+        },
+        {
+            "Ned": "pruim",
+            "Amazigh": "rbarquq",
+            "Eng": "plum",
+            "Spaans": "ciruela  ",
+            "Frans": "prune",
+            "Duits": "Pflaume"
+        },
+        {
+            "Ned": "sinaasappel",
+            "Amazigh": "taleccint",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "Orange"
+        },
+        {
+            "Ned": "dadel",
+            "Amazigh": "tini",
+            "Eng": "date ",
+            "Spaans": "fecha",
+            "Frans": "date",
+            "Duits": "Dattel"
+        },
+        {
+            "Ned": "citroen",
+            "Amazigh": "llaymun",
+            "Eng": "lemon ",
+            "Spaans": "limón",
+            "Frans": "citron",
+            "Duits": "Zitrone"
+        },
+        {
+            "Ned": "bananen",
+            "Amazigh": "banan",
+            "Eng": "bananas",
+            "Spaans": "plátanos",
+            "Frans": "bananes",
+            "Duits": "Bananen"
+        }
+    ],
+    "fruta": [
+        {
+            "Ned": "appel",
+            "Amazigh": "tateffaht",
+            "Eng": "apple ",
+            "Spaans": "manzana",
+            "Frans": "pomme",
+            "Duits": "Apfel"
+        },
+        {
+            "Ned": "peer",
+            "Amazigh": "tafirast",
+            "Eng": "pear ",
+            "Spaans": "pera",
+            "Frans": "poire",
+            "Duits": "Birne"
+        },
+        {
+            "Ned": "abrikoos",
+            "Amazigh": "rmecmac",
+            "Eng": "apricot ",
+            "Spaans": "albaricoque",
+            "Frans": "abricot",
+            "Duits": "Aprikose"
+        },
+        {
+            "Ned": "perzik",
+            "Amazigh": "rxux",
+            "Eng": "peach ",
+            "Spaans": "melocotón",
+            "Frans": "pêche",
+            "Duits": "Pfirsich"
+        },
+        {
+            "Ned": "druiven",
+            "Amazigh": "aḍil",
+            "Eng": "grapes ",
+            "Spaans": "uvas",
+            "Frans": "raisins",
+            "Duits": "Trauben"
+        },
+        {
+            "Ned": "watermeloen",
+            "Amazigh": "ddellaɛ",
+            "Eng": "watermelon ",
+            "Spaans": "sandía",
+            "Frans": "pastèque",
+            "Duits": "Wassermelone"
+        },
+        {
+            "Ned": "honingmeloen",
+            "Amazigh": "abettix",
+            "Eng": "honey dew melon",
+            "Spaans": "melón de miel",
+            "Frans": "melon de miel",
+            "Duits": "Honigmelone"
+        },
+        {
+            "Ned": "granaatappel",
+            "Amazigh": "arremman",
+            "Eng": "pomegranate",
+            "Spaans": "granada",
+            "Frans": "grenade",
+            "Duits": "Granatapfel"
+        },
+        {
+            "Ned": "vijg",
+            "Amazigh": "tazart",
+            "Eng": "fig ",
+            "Spaans": "higo",
+            "Frans": "figue",
+            "Duits": "Feige"
+        },
+        {
+            "Ned": "cactusvijg",
+            "Amazigh": "tahendict",
+            "Eng": "cactus pear",
+            "Spaans": "higo chumbo",
+            "Frans": "figue de barbarie",
+            "Duits": "Kaktusfeige"
+        },
+        {
+            "Ned": "pruim",
+            "Amazigh": "rbarquq",
+            "Eng": "plum",
+            "Spaans": "ciruela  ",
+            "Frans": "prune",
+            "Duits": "Pflaume"
+        },
+        {
+            "Ned": "sinaasappel",
+            "Amazigh": "taleccint",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "Orange"
+        },
+        {
+            "Ned": "dadel",
+            "Amazigh": "tini",
+            "Eng": "date ",
+            "Spaans": "fecha",
+            "Frans": "date",
+            "Duits": "Dattel"
+        },
+        {
+            "Ned": "citroen",
+            "Amazigh": "llaymun",
+            "Eng": "lemon ",
+            "Spaans": "limón",
+            "Frans": "citron",
+            "Duits": "Zitrone"
+        },
+        {
+            "Ned": "bananen",
+            "Amazigh": "banan",
+            "Eng": "bananas",
+            "Spaans": "plátanos",
+            "Frans": "bananes",
+            "Duits": "Bananen"
+        }
+    ],
+    "insecten": [
+        {
+            "Ned": "slak",
+            "Amazigh": "aɣlal ",
+            "Eng": "snail ",
+            "Spaans": "caracol",
+            "Frans": "escargot",
+            "Duits": "Schnecke"
+        },
+        {
+            "Ned": "regenworm",
+            "Amazigh": "adan n tmurt ",
+            "Eng": "earthworm ",
+            "Spaans": "lombriz",
+            "Frans": "ver de terre",
+            "Duits": "Regenwurm"
+        },
+        {
+            "Ned": "larve",
+            "Amazigh": "takecca",
+            "Eng": "larva ",
+            "Spaans": "larva",
+            "Frans": "larve",
+            "Duits": "Larve"
+        },
+        {
+            "Ned": "vlieg",
+            "Amazigh": "iẓi",
+            "Eng": "fly",
+            "Spaans": "mosca",
+            "Frans": "mouche",
+            "Duits": "Fliege"
+        },
+        {
+            "Ned": "bij",
+            "Amazigh": "zizwit",
+            "Eng": "bee ",
+            "Spaans": "abeja",
+            "Frans": "abeille",
+            "Duits": "Biene"
+        },
+        {
+            "Ned": "mug",
+            "Amazigh": "nnamus",
+            "Eng": "mosquito ",
+            "Spaans": "mosquito",
+            "Frans": "moustique",
+            "Duits": "Mücke"
+        },
+        {
+            "Ned": "mier",
+            "Amazigh": "tikedfet",
+            "Eng": "ant ",
+            "Spaans": "hormiga",
+            "Frans": "fourmi",
+            "Duits": "Ameise"
+        },
+        {
+            "Ned": "vlinder",
+            "Amazigh": "aferṭṭu",
+            "Eng": "butterfly ",
+            "Spaans": "mariposa",
+            "Frans": "papillon",
+            "Duits": "Schmetterling"
+        },
+        {
+            "Ned": "spin",
+            "Amazigh": "qundɣa ",
+            "Eng": "spider ",
+            "Spaans": "araña",
+            "Frans": "araignée",
+            "Duits": "Spinne"
+        },
+        {
+            "Ned": "sprinkhaan",
+            "Amazigh": "burxes",
+            "Eng": "grasshopper ",
+            "Spaans": "saltamontes",
+            "Frans": "sauterelle",
+            "Duits": "Heuschrecke"
+        },
+        {
+            "Ned": "rups",
+            "Amazigh": "bugḍif",
+            "Eng": "caterpillar",
+            "Spaans": "oruga",
+            "Frans": "chenille",
+            "Duits": "Raupe"
+        },
+        {
+            "Ned": "wesp",
+            "Amazigh": "yaẓẓa",
+            "Eng": "wasp",
+            "Spaans": "avispa",
+            "Frans": "guêpe",
+            "Duits": "Wespe"
+        },
+        {
+            "Ned": "naaktslak",
+            "Amazigh": "buccel ",
+            "Eng": "slug",
+            "Spaans": "babosa",
+            "Frans": "limace",
+            "Duits": "Nacktschnecke"
+        },
+        {
+            "Ned": "bloedzuiger",
+            "Amazigh": "tiḍḍa",
+            "Eng": "leech",
+            "Spaans": "sanguijuela",
+            "Frans": "sangsue",
+            "Duits": "Blutsauger"
+        },
+        {
+            "Ned": "bidsprinkhaan",
+            "Amazigh": "tamraebt",
+            "Eng": "mantis",
+            "Spaans": "mantis",
+            "Frans": "mante",
+            "Duits": "Gottesanbeterin"
+        }
+    ],
+    "groente": [
+        {
+            "Ned": "kikkererwten",
+            "Amazigh": "rḥimez",
+            "Eng": "chickpeas ",
+            "Spaans": "garbanzos",
+            "Frans": "pois chiches",
+            "Duits": "Kichererbsen"
+        },
+        {
+            "Ned": "linzen",
+            "Amazigh": "leɛdes",
+            "Eng": "lentils ",
+            "Spaans": "lentejas",
+            "Frans": "lentilles",
+            "Duits": "Linsen"
+        },
+        {
+            "Ned": "bonen",
+            "Amazigh": "llubeyyet",
+            "Eng": "beans ",
+            "Spaans": "frijoles",
+            "Frans": "haricots",
+            "Duits": "Bohnen"
+        },
+        {
+            "Ned": "tomaat",
+            "Amazigh": "ttumatic",
+            "Eng": "tomato ",
+            "Spaans": "tomate",
+            "Frans": "tomate",
+            "Duits": "Tomate"
+        },
+        {
+            "Ned": "olijven",
+            "Amazigh": "zzitun",
+            "Eng": "olives ",
+            "Spaans": "aceitunas",
+            "Frans": "olives",
+            "Duits": "Oliven"
+        },
+        {
+            "Ned": "aardappel",
+            "Amazigh": "baṭaṭa",
+            "Eng": "potato ",
+            "Spaans": "patata ",
+            "Frans": "pomme de terre",
+            "Duits": "Kartoffel"
+        },
+        {
+            "Ned": "ui",
+            "Amazigh": "rebser",
+            "Eng": "onion ",
+            "Spaans": "cebolla",
+            "Frans": "oignon",
+            "Duits": "Zwiebel"
+        },
+        {
+            "Ned": "knoflook",
+            "Amazigh": "ticcart",
+            "Eng": "garlic ",
+            "Spaans": "ajo",
+            "Frans": "ail",
+            "Duits": "Knoblauch"
+        },
+        {
+            "Ned": "maïs",
+            "Amazigh": "dra",
+            "Eng": "corn ",
+            "Spaans": "maíz",
+            "Frans": "maïs",
+            "Duits": "Mais"
+        },
+        {
+            "Ned": "paprika",
+            "Amazigh": "rferfer",
+            "Eng": "bell pepper ",
+            "Spaans": "pimiento",
+            "Frans": "poivron",
+            "Duits": "Paprika"
+        },
+        {
+            "Ned": "pompoen",
+            "Amazigh": "taxsact",
+            "Eng": "pumpkin ",
+            "Spaans": "calabaza",
+            "Frans": "citrouille",
+            "Duits": "Kürbis"
+        },
+        {
+            "Ned": "wortel",
+            "Amazigh": "xizzu",
+            "Eng": "carrot",
+            "Spaans": "zanahoria",
+            "Frans": "carotte",
+            "Duits": "Karotte"
+        },
+        {
+            "Ned": "(dop)erwten",
+            "Amazigh": "tinifin",
+            "Eng": "peas",
+            "Spaans": "chícharos",
+            "Frans": "petit pois",
+            "Duits": "Erbsen"
+        },
+        {
+            "Ned": "tuinbonen",
+            "Amazigh": "ibawen",
+            "Eng": "broad beans",
+            "Spaans": "habas",
+            "Frans": "fèves",
+            "Duits": "Saubohnen"
+        },
+        {
+            "Ned": "spinazie",
+            "Amazigh": "ṭebi ",
+            "Eng": "spinach ",
+            "Spaans": "espinacas",
+            "Frans": "épinards",
+            "Duits": "Spinat"
+        }
+    ],
+    "dieren02": [
+        {
+            "Ned": "patrijs",
+            "Amazigh": "asekkur",
+            "Eng": "partridge ",
+            "Spaans": "perdiz",
+            "Frans": "perdrix",
+            "Duits": "Rebhuhn"
+        },
+        {
+            "Ned": "uil",
+            "Amazigh": "muka",
+            "Eng": "owl ",
+            "Spaans": "búho",
+            "Frans": "chouette",
+            "Duits": "Eule"
+        },
+        {
+            "Ned": "gekko",
+            "Amazigh": "aḥamchel ",
+            "Eng": "gecko ",
+            "Spaans": "geco",
+            "Frans": "gecko",
+            "Duits": "Gecko"
+        },
+        {
+            "Ned": "schorpioen",
+            "Amazigh": "tɣirdent  ",
+            "Eng": "scorpion ",
+            "Spaans": "escorpión",
+            "Frans": "scorpion",
+            "Duits": "Skorpion"
+        },
+        {
+            "Ned": "stekelvarken",
+            "Amazigh": "aruy",
+            "Eng": "porcupine ",
+            "Spaans": "puerco espín",
+            "Frans": "porc-épic",
+            "Duits": "Stachelschwein"
+        },
+        {
+            "Ned": "haas",
+            "Amazigh": "ayaṛziz",
+            "Eng": "hare ",
+            "Spaans": "liebre",
+            "Frans": "lièvre",
+            "Duits": "Hase"
+        },
+        {
+            "Ned": "vos",
+            "Amazigh": "icɛb",
+            "Eng": "fox ",
+            "Spaans": "zorro",
+            "Frans": "renard",
+            "Duits": "Fuchs"
+        },
+        {
+            "Ned": "windhond",
+            "Amazigh": "uccay",
+            "Eng": "greyhound ",
+            "Spaans": "galgo",
+            "Frans": "levrette",
+            "Duits": "Windhund"
+        },
+        {
+            "Ned": "hyena",
+            "Amazigh": "ifis",
+            "Eng": "hyena ",
+            "Spaans": "hiena",
+            "Frans": "hyène",
+            "Duits": "Hyäne"
+        },
+        {
+            "Ned": "wild_zwijn",
+            "Amazigh": "ilf",
+            "Eng": "boar",
+            "Spaans": "jabali",
+            "Frans": "sanglier",
+            "Duits": "Wildschwein"
+        },
+        {
+            "Ned": "slang",
+            "Amazigh": "afiɣra",
+            "Eng": "snake (viper)",
+            "Spaans": "serpiente (víbora)",
+            "Frans": "serpent (vipère)",
+            "Duits": "Schlange (Viper)"
+        },
+        {
+            "Ned": "schildpad",
+            "Amazigh": "icfar ",
+            "Eng": "turtle ",
+            "Spaans": "tortuga",
+            "Frans": "tortue",
+            "Duits": "Schildkröte"
+        },
+        {
+            "Ned": "kameleon",
+            "Amazigh": "tata",
+            "Eng": "chameleon ",
+            "Spaans": "camaleón",
+            "Frans": "caméléon",
+            "Duits": "Chamäleon"
+        },
+        {
+            "Ned": "zwaluw",
+            "Amazigh": "tiflillest",
+            "Eng": "swallow ",
+            "Spaans": "golondrina",
+            "Frans": "hirondelle",
+            "Duits": "Schwalbe "
+        },
+        {
+            "Ned": "duif",
+            "Amazigh": "adbir",
+            "Eng": "pigeon ",
+            "Spaans": "paloma",
+            "Frans": "pigeon",
+            "Duits": "Taube"
+        }
+    ],
+    "eten": [
+        {
+            "Ned": "eieren",
+            "Amazigh": "timejjalin",
+            "Eng": "eggs",
+            "Spaans": "huevos",
+            "Frans": "œufs",
+            "Duits": "Eier"
+        },
+        {
+            "Ned": "olie",
+            "Amazigh": "zzict",
+            "Eng": "oil",
+            "Spaans": "aceite",
+            "Frans": "huile",
+            "Duits": "Öl"
+        },
+        {
+            "Ned": "koekjes",
+            "Amazigh": "ɣayiṭa",
+            "Eng": "cookies",
+            "Spaans": "galletas",
+            "Frans": "biscuits",
+            "Duits": "Kekse"
+        },
+        {
+            "Ned": "thee",
+            "Amazigh": "atay",
+            "Eng": "tea",
+            "Spaans": "té",
+            "Frans": "thé",
+            "Duits": "Tee"
+        },
+        {
+            "Ned": "koffie",
+            "Amazigh": "rqehwa",
+            "Eng": "coffee",
+            "Spaans": "café",
+            "Frans": "café",
+            "Duits": "Kaffee"
+        },
+        {
+            "Ned": "melk",
+            "Amazigh": "aɣi",
+            "Eng": "milk",
+            "Spaans": "leche",
+            "Frans": "lait",
+            "Duits": "Milch"
+        },
+        {
+            "Ned": "yoghurt",
+            "Amazigh": "accil",
+            "Eng": "yogurt",
+            "Spaans": "yogur",
+            "Frans": "yaourt",
+            "Duits": "Joghurt"
+        },
+        {
+            "Ned": "water",
+            "Amazigh": "aman",
+            "Eng": "water",
+            "Spaans": "agua",
+            "Frans": "eau",
+            "Duits": "Wasser"
+        },
+        {
+            "Ned": "brood",
+            "Amazigh": "aɣrum",
+            "Eng": "bread",
+            "Spaans": "pan",
+            "Frans": "pain",
+            "Duits": "Brot"
+        },
+        {
+            "Ned": "honing",
+            "Amazigh": "tamment",
+            "Eng": "honey",
+            "Spaans": "miel",
+            "Frans": "miel",
+            "Duits": "Honig"
+        },
+        {
+            "Ned": "suiker",
+            "Amazigh": "sseqqur",
+            "Eng": "sugar",
+            "Spaans": "azúcar",
+            "Frans": "sucre",
+            "Duits": "Zucker"
+        },
+        {
+            "Ned": "zout",
+            "Amazigh": "tamellaḥt",
+            "Eng": "salt",
+            "Spaans": "sal",
+            "Frans": "sel",
+            "Duits": "Salz"
+        },
+        {
+            "Ned": "vlees",
+            "Amazigh": "aysum",
+            "Eng": "meat",
+            "Spaans": "carne",
+            "Frans": "viande",
+            "Duits": "Fleisch"
+        },
+        {
+            "Ned": "vissen",
+            "Amazigh": "iselman",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "boter",
+            "Amazigh": "ddhen",
+            "Eng": "butter",
+            "Spaans": "mantequilla",
+            "Frans": "beurre",
+            "Duits": "Butter"
+        }
+    ],
+    "kleding": [
+        {
+            "Ned": "broek",
+            "Amazigh": "ssarwal",
+            "Eng": "pants",
+            "Spaans": "pantalones",
+            "Frans": "pantalon",
+            "Duits": "Hose"
+        },
+        {
+            "Ned": "trui",
+            "Amazigh": "amaryul",
+            "Eng": "sweater",
+            "Spaans": "suéter",
+            "Frans": "chandail",
+            "Duits": "Pullover"
+        },
+        {
+            "Ned": "onderhemd",
+            "Amazigh": "camisita ",
+            "Eng": "undershirt",
+            "Spaans": "camiseta",
+            "Frans": "maillot de corps",
+            "Duits": "Unterhemd"
+        },
+        {
+            "Ned": "jas",
+            "Amazigh": "aqabud",
+            "Eng": "jacket",
+            "Spaans": "chaqueta",
+            "Frans": "veste",
+            "Duits": "Jacke"
+        },
+        {
+            "Ned": "schoenen",
+            "Amazigh": "tisila",
+            "Eng": "shoes",
+            "Spaans": "zapatos",
+            "Frans": "chaussures",
+            "Duits": "Schuhe"
+        },
+        {
+            "Ned": "laarzen",
+            "Amazigh": "ihakusen",
+            "Eng": "boots",
+            "Spaans": "botas",
+            "Frans": "bottes",
+            "Duits": "Stiefel"
+        },
+        {
+            "Ned": "muts",
+            "Amazigh": "tcaccict",
+            "Eng": "cap",
+            "Spaans": "gorro",
+            "Frans": "bonnet",
+            "Duits": "Kappe"
+        },
+        {
+            "Ned": "jurk",
+            "Amazigh": "tablust",
+            "Eng": "dress",
+            "Spaans": "vestido",
+            "Frans": "robe",
+            "Duits": "Kleid"
+        },
+        {
+            "Ned": "rok",
+            "Amazigh": "farda",
+            "Eng": "skirt",
+            "Spaans": "falda",
+            "Frans": "jupe",
+            "Duits": "Rock"
+        },
+        {
+            "Ned": "slippers",
+            "Amazigh": "tcinklat",
+            "Eng": "flip flops",
+            "Spaans": "chanclas",
+            "Frans": "claquette",
+            "Duits": "Flip Flops"
+        },
+        {
+            "Ned": "handschoenen",
+            "Amazigh": "iwantisan",
+            "Eng": "gloves",
+            "Spaans": "guantes",
+            "Frans": "gants",
+            "Duits": "Handschuhe"
+        },
+        {
+            "Ned": "sokken",
+            "Amazigh": "tqacir",
+            "Eng": "socks",
+            "Spaans": "calcetines",
+            "Frans": "chaussettes",
+            "Duits": "Socken"
+        },
+        {
+            "Ned": "overhemd",
+            "Amazigh": "taqmijjat",
+            "Eng": "shirt",
+            "Spaans": "camisa",
+            "Frans": "chemise",
+            "Duits": "Hemd"
+        },
+        {
+            "Ned": "sjaal",
+            "Amazigh": "ahewwak",
+            "Eng": "scarf",
+            "Spaans": "bufanda",
+            "Frans": "écharpe",
+            "Duits": "Schal"
+        },
+        {
+            "Ned": "riem",
+            "Amazigh": "abyas",
+            "Eng": "belt",
+            "Spaans": "cinturón",
+            "Frans": "ceinture",
+            "Duits": "Gürtel"
+        }
+    ],
+    "weer": [
+        {
+            "Ned": "lente",
+            "Amazigh": "tafsut",
+            "Eng": "spring ",
+            "Spaans": "primavera",
+            "Frans": "printemps",
+            "Duits": "Frühling"
+        },
+        {
+            "Ned": "zomer",
+            "Amazigh": "anebdu",
+            "Eng": "summer ",
+            "Spaans": "verano",
+            "Frans": "été",
+            "Duits": "Sommer"
+        },
+        {
+            "Ned": "herfst",
+            "Amazigh": "leiglief",
+            "Eng": "autumn ",
+            "Spaans": "otoño",
+            "Frans": "automne",
+            "Duits": "Herbst"
+        },
+        {
+            "Ned": "winter",
+            "Amazigh": "tajarst",
+            "Eng": "winter",
+            "Spaans": "invierno",
+            "Frans": "hiver",
+            "Duits": "Winter"
+        },
+        {
+            "Ned": "regen",
+            "Amazigh": "anẓar",
+            "Eng": "rain",
+            "Spaans": "lluvia",
+            "Frans": "pluie",
+            "Duits": "Regen"
+        },
+        {
+            "Ned": "sneeuw",
+            "Amazigh": "adfel",
+            "Eng": "snow",
+            "Spaans": "nieve",
+            "Frans": "neige",
+            "Duits": "Schnee"
+        },
+        {
+            "Ned": "wind",
+            "Amazigh": "asemmiḍ",
+            "Eng": "wind",
+            "Spaans": "viento",
+            "Frans": "vent",
+            "Duits": "Wind"
+        },
+        {
+            "Ned": "regenboog",
+            "Amazigh": "taslit n unzar",
+            "Eng": "rainbow",
+            "Spaans": "arco iris",
+            "Frans": "arc en ciel",
+            "Duits": "Regenbogen"
+        },
+        {
+            "Ned": "maan",
+            "Amazigh": "yur",
+            "Eng": "moon",
+            "Spaans": "luna",
+            "Frans": "lune",
+            "Duits": "Mond"
+        },
+        {
+            "Ned": "zon",
+            "Amazigh": "tfuct",
+            "Eng": "sun",
+            "Spaans": "sol",
+            "Frans": "soleil",
+            "Duits": "Sonne"
+        },
+        {
+            "Ned": "wassende maan",
+            "Amazigh": "taziri",
+            "Eng": "crescent",
+            "Spaans": "creciente",
+            "Frans": "croissant",
+            "Duits": "Halbmond"
+        },
+        {
+            "Ned": "donder",
+            "Amazigh": "ajjaj",
+            "Eng": "thunder",
+            "Spaans": "trueno",
+            "Frans": "tonnerre",
+            "Duits": "Donner"
+        },
+        {
+            "Ned": "ster",
+            "Amazigh": "itri",
+            "Eng": "star",
+            "Spaans": "estrella",
+            "Frans": "vedette",
+            "Duits": "Star"
+        },
+        {
+            "Ned": "mist",
+            "Amazigh": "tayyut",
+            "Eng": "fog",
+            "Spaans": "niebla",
+            "Frans": "brouillard",
+            "Duits": "Nebel"
+        },
+        {
+            "Ned": "wolken",
+            "Amazigh": "asinu",
+            "Eng": "clouds",
+            "Spaans": "nubes",
+            "Frans": "nuages",
+            "Duits": "Wolken"
+        }
+    ],
+    "kleuren": [
+        {
+            "Ned": "rood",
+            "Amazigh": "azegg-aɣ",
+            "Eng": "red ",
+            "Spaans": "rojo",
+            "Frans": "rouge",
+            "Duits": "rot"
+        },
+        {
+            "Ned": "geel",
+            "Amazigh": "awraɣ",
+            "Eng": "yellow ",
+            "Spaans": "amarillo",
+            "Frans": "jaune",
+            "Duits": "gelb"
+        },
+        {
+            "Ned": "blauw",
+            "Amazigh": "aḥmaymi ",
+            "Eng": "blue ",
+            "Spaans": "azul",
+            "Frans": "bleu",
+            "Duits": "blau"
+        },
+        {
+            "Ned": "zwart",
+            "Amazigh": "abarcan",
+            "Eng": "black ",
+            "Spaans": "negro",
+            "Frans": "noir",
+            "Duits": "schwarz"
+        },
+        {
+            "Ned": "wit",
+            "Amazigh": "acemlal",
+            "Eng": "white ",
+            "Spaans": "blanco",
+            "Frans": "blanc",
+            "Duits": "weiß"
+        },
+        {
+            "Ned": "bruin",
+            "Amazigh": "ahemruni",
+            "Eng": "brown ",
+            "Spaans": "marrón",
+            "Frans": "brun",
+            "Duits": "braun"
+        },
+        {
+            "Ned": "groen",
+            "Amazigh": "aziza ",
+            "Eng": "green ",
+            "Spaans": "verde",
+            "Frans": "vert",
+            "Duits": "grün"
+        },
+        {
+            "Ned": "oranje",
+            "Amazigh": "aletcini",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "orange"
+        },
+        {
+            "Ned": "bont",
+            "Amazigh": "akarkac",
+            "Eng": "colourful",
+            "Spaans": "vistoso",
+            "Frans": "coloré",
+            "Duits": "bunt"
+        },
+        {
+            "Ned": "paars",
+            "Amazigh": "azbaybi ",
+            "Eng": "purple",
+            "Spaans": "morado",
+            "Frans": "mauve",
+            "Duits": "lila"
+        }
+    ],
+    "tiere01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ],
+    "obst": [
+        {
+            "Ned": "appel",
+            "Amazigh": "tateffaht",
+            "Eng": "apple ",
+            "Spaans": "manzana",
+            "Frans": "pomme",
+            "Duits": "Apfel"
+        },
+        {
+            "Ned": "peer",
+            "Amazigh": "tafirast",
+            "Eng": "pear ",
+            "Spaans": "pera",
+            "Frans": "poire",
+            "Duits": "Birne"
+        },
+        {
+            "Ned": "abrikoos",
+            "Amazigh": "rmecmac",
+            "Eng": "apricot ",
+            "Spaans": "albaricoque",
+            "Frans": "abricot",
+            "Duits": "Aprikose"
+        },
+        {
+            "Ned": "perzik",
+            "Amazigh": "rxux",
+            "Eng": "peach ",
+            "Spaans": "melocotón",
+            "Frans": "pêche",
+            "Duits": "Pfirsich"
+        },
+        {
+            "Ned": "druiven",
+            "Amazigh": "aḍil",
+            "Eng": "grapes ",
+            "Spaans": "uvas",
+            "Frans": "raisins",
+            "Duits": "Trauben"
+        },
+        {
+            "Ned": "watermeloen",
+            "Amazigh": "ddellaɛ",
+            "Eng": "watermelon ",
+            "Spaans": "sandía",
+            "Frans": "pastèque",
+            "Duits": "Wassermelone"
+        },
+        {
+            "Ned": "honingmeloen",
+            "Amazigh": "abettix",
+            "Eng": "honey dew melon",
+            "Spaans": "melón de miel",
+            "Frans": "melon de miel",
+            "Duits": "Honigmelone"
+        },
+        {
+            "Ned": "granaatappel",
+            "Amazigh": "arremman",
+            "Eng": "pomegranate",
+            "Spaans": "granada",
+            "Frans": "grenade",
+            "Duits": "Granatapfel"
+        },
+        {
+            "Ned": "vijg",
+            "Amazigh": "tazart",
+            "Eng": "fig ",
+            "Spaans": "higo",
+            "Frans": "figue",
+            "Duits": "Feige"
+        },
+        {
+            "Ned": "cactusvijg",
+            "Amazigh": "tahendict",
+            "Eng": "cactus pear",
+            "Spaans": "higo chumbo",
+            "Frans": "figue de barbarie",
+            "Duits": "Kaktusfeige"
+        },
+        {
+            "Ned": "pruim",
+            "Amazigh": "rbarquq",
+            "Eng": "plum",
+            "Spaans": "ciruela  ",
+            "Frans": "prune",
+            "Duits": "Pflaume"
+        },
+        {
+            "Ned": "sinaasappel",
+            "Amazigh": "taleccint",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "Orange"
+        },
+        {
+            "Ned": "dadel",
+            "Amazigh": "tini",
+            "Eng": "date ",
+            "Spaans": "fecha",
+            "Frans": "date",
+            "Duits": "Dattel"
+        },
+        {
+            "Ned": "citroen",
+            "Amazigh": "llaymun",
+            "Eng": "lemon ",
+            "Spaans": "limón",
+            "Frans": "citron",
+            "Duits": "Zitrone"
+        },
+        {
+            "Ned": "bananen",
+            "Amazigh": "banan",
+            "Eng": "bananas",
+            "Spaans": "plátanos",
+            "Frans": "bananes",
+            "Duits": "Bananen"
+        }
+    ],
+    "insekten": [
+        {
+            "Ned": "slak",
+            "Amazigh": "aɣlal ",
+            "Eng": "snail ",
+            "Spaans": "caracol",
+            "Frans": "escargot",
+            "Duits": "Schnecke"
+        },
+        {
+            "Ned": "regenworm",
+            "Amazigh": "adan n tmurt ",
+            "Eng": "earthworm ",
+            "Spaans": "lombriz",
+            "Frans": "ver de terre",
+            "Duits": "Regenwurm"
+        },
+        {
+            "Ned": "larve",
+            "Amazigh": "takecca",
+            "Eng": "larva ",
+            "Spaans": "larva",
+            "Frans": "larve",
+            "Duits": "Larve"
+        },
+        {
+            "Ned": "vlieg",
+            "Amazigh": "iẓi",
+            "Eng": "fly",
+            "Spaans": "mosca",
+            "Frans": "mouche",
+            "Duits": "Fliege"
+        },
+        {
+            "Ned": "bij",
+            "Amazigh": "zizwit",
+            "Eng": "bee ",
+            "Spaans": "abeja",
+            "Frans": "abeille",
+            "Duits": "Biene"
+        },
+        {
+            "Ned": "mug",
+            "Amazigh": "nnamus",
+            "Eng": "mosquito ",
+            "Spaans": "mosquito",
+            "Frans": "moustique",
+            "Duits": "Mücke"
+        },
+        {
+            "Ned": "mier",
+            "Amazigh": "tikedfet",
+            "Eng": "ant ",
+            "Spaans": "hormiga",
+            "Frans": "fourmi",
+            "Duits": "Ameise"
+        },
+        {
+            "Ned": "vlinder",
+            "Amazigh": "aferṭṭu",
+            "Eng": "butterfly ",
+            "Spaans": "mariposa",
+            "Frans": "papillon",
+            "Duits": "Schmetterling"
+        },
+        {
+            "Ned": "spin",
+            "Amazigh": "qundɣa ",
+            "Eng": "spider ",
+            "Spaans": "araña",
+            "Frans": "araignée",
+            "Duits": "Spinne"
+        },
+        {
+            "Ned": "sprinkhaan",
+            "Amazigh": "burxes",
+            "Eng": "grasshopper ",
+            "Spaans": "saltamontes",
+            "Frans": "sauterelle",
+            "Duits": "Heuschrecke"
+        },
+        {
+            "Ned": "rups",
+            "Amazigh": "bugḍif",
+            "Eng": "caterpillar",
+            "Spaans": "oruga",
+            "Frans": "chenille",
+            "Duits": "Raupe"
+        },
+        {
+            "Ned": "wesp",
+            "Amazigh": "yaẓẓa",
+            "Eng": "wasp",
+            "Spaans": "avispa",
+            "Frans": "guêpe",
+            "Duits": "Wespe"
+        },
+        {
+            "Ned": "naaktslak",
+            "Amazigh": "buccel ",
+            "Eng": "slug",
+            "Spaans": "babosa",
+            "Frans": "limace",
+            "Duits": "Nacktschnecke"
+        },
+        {
+            "Ned": "bloedzuiger",
+            "Amazigh": "tiḍḍa",
+            "Eng": "leech",
+            "Spaans": "sanguijuela",
+            "Frans": "sangsue",
+            "Duits": "Blutsauger"
+        },
+        {
+            "Ned": "bidsprinkhaan",
+            "Amazigh": "tamraebt",
+            "Eng": "mantis",
+            "Spaans": "mantis",
+            "Frans": "mante",
+            "Duits": "Gottesanbeterin"
+        }
+    ],
+    "gemüse": [
+        {
+            "Ned": "kikkererwten",
+            "Amazigh": "rḥimez",
+            "Eng": "chickpeas ",
+            "Spaans": "garbanzos",
+            "Frans": "pois chiches",
+            "Duits": "Kichererbsen"
+        },
+        {
+            "Ned": "linzen",
+            "Amazigh": "leɛdes",
+            "Eng": "lentils ",
+            "Spaans": "lentejas",
+            "Frans": "lentilles",
+            "Duits": "Linsen"
+        },
+        {
+            "Ned": "bonen",
+            "Amazigh": "llubeyyet",
+            "Eng": "beans ",
+            "Spaans": "frijoles",
+            "Frans": "haricots",
+            "Duits": "Bohnen"
+        },
+        {
+            "Ned": "tomaat",
+            "Amazigh": "ttumatic",
+            "Eng": "tomato ",
+            "Spaans": "tomate",
+            "Frans": "tomate",
+            "Duits": "Tomate"
+        },
+        {
+            "Ned": "olijven",
+            "Amazigh": "zzitun",
+            "Eng": "olives ",
+            "Spaans": "aceitunas",
+            "Frans": "olives",
+            "Duits": "Oliven"
+        },
+        {
+            "Ned": "aardappel",
+            "Amazigh": "baṭaṭa",
+            "Eng": "potato ",
+            "Spaans": "patata ",
+            "Frans": "pomme de terre",
+            "Duits": "Kartoffel"
+        },
+        {
+            "Ned": "ui",
+            "Amazigh": "rebser",
+            "Eng": "onion ",
+            "Spaans": "cebolla",
+            "Frans": "oignon",
+            "Duits": "Zwiebel"
+        },
+        {
+            "Ned": "knoflook",
+            "Amazigh": "ticcart",
+            "Eng": "garlic ",
+            "Spaans": "ajo",
+            "Frans": "ail",
+            "Duits": "Knoblauch"
+        },
+        {
+            "Ned": "maïs",
+            "Amazigh": "dra",
+            "Eng": "corn ",
+            "Spaans": "maíz",
+            "Frans": "maïs",
+            "Duits": "Mais"
+        },
+        {
+            "Ned": "paprika",
+            "Amazigh": "rferfer",
+            "Eng": "bell pepper ",
+            "Spaans": "pimiento",
+            "Frans": "poivron",
+            "Duits": "Paprika"
+        },
+        {
+            "Ned": "pompoen",
+            "Amazigh": "taxsact",
+            "Eng": "pumpkin ",
+            "Spaans": "calabaza",
+            "Frans": "citrouille",
+            "Duits": "Kürbis"
+        },
+        {
+            "Ned": "wortel",
+            "Amazigh": "xizzu",
+            "Eng": "carrot",
+            "Spaans": "zanahoria",
+            "Frans": "carotte",
+            "Duits": "Karotte"
+        },
+        {
+            "Ned": "(dop)erwten",
+            "Amazigh": "tinifin",
+            "Eng": "peas",
+            "Spaans": "chícharos",
+            "Frans": "petit pois",
+            "Duits": "Erbsen"
+        },
+        {
+            "Ned": "tuinbonen",
+            "Amazigh": "ibawen",
+            "Eng": "broad beans",
+            "Spaans": "habas",
+            "Frans": "fèves",
+            "Duits": "Saubohnen"
+        },
+        {
+            "Ned": "spinazie",
+            "Amazigh": "ṭebi ",
+            "Eng": "spinach ",
+            "Spaans": "espinacas",
+            "Frans": "épinards",
+            "Duits": "Spinat"
+        }
+    ],
+    "tiere02": [
+        {
+            "Ned": "patrijs",
+            "Amazigh": "asekkur",
+            "Eng": "partridge ",
+            "Spaans": "perdiz",
+            "Frans": "perdrix",
+            "Duits": "Rebhuhn"
+        },
+        {
+            "Ned": "uil",
+            "Amazigh": "muka",
+            "Eng": "owl ",
+            "Spaans": "búho",
+            "Frans": "chouette",
+            "Duits": "Eule"
+        },
+        {
+            "Ned": "gekko",
+            "Amazigh": "aḥamchel ",
+            "Eng": "gecko ",
+            "Spaans": "geco",
+            "Frans": "gecko",
+            "Duits": "Gecko"
+        },
+        {
+            "Ned": "schorpioen",
+            "Amazigh": "tɣirdent  ",
+            "Eng": "scorpion ",
+            "Spaans": "escorpión",
+            "Frans": "scorpion",
+            "Duits": "Skorpion"
+        },
+        {
+            "Ned": "stekelvarken",
+            "Amazigh": "aruy",
+            "Eng": "porcupine ",
+            "Spaans": "puerco espín",
+            "Frans": "porc-épic",
+            "Duits": "Stachelschwein"
+        },
+        {
+            "Ned": "haas",
+            "Amazigh": "ayaṛziz",
+            "Eng": "hare ",
+            "Spaans": "liebre",
+            "Frans": "lièvre",
+            "Duits": "Hase"
+        },
+        {
+            "Ned": "vos",
+            "Amazigh": "icɛb",
+            "Eng": "fox ",
+            "Spaans": "zorro",
+            "Frans": "renard",
+            "Duits": "Fuchs"
+        },
+        {
+            "Ned": "windhond",
+            "Amazigh": "uccay",
+            "Eng": "greyhound ",
+            "Spaans": "galgo",
+            "Frans": "levrette",
+            "Duits": "Windhund"
+        },
+        {
+            "Ned": "hyena",
+            "Amazigh": "ifis",
+            "Eng": "hyena ",
+            "Spaans": "hiena",
+            "Frans": "hyène",
+            "Duits": "Hyäne"
+        },
+        {
+            "Ned": "wild_zwijn",
+            "Amazigh": "ilf",
+            "Eng": "boar",
+            "Spaans": "jabali",
+            "Frans": "sanglier",
+            "Duits": "Wildschwein"
+        },
+        {
+            "Ned": "slang",
+            "Amazigh": "afiɣra",
+            "Eng": "snake (viper)",
+            "Spaans": "serpiente (víbora)",
+            "Frans": "serpent (vipère)",
+            "Duits": "Schlange (Viper)"
+        },
+        {
+            "Ned": "schildpad",
+            "Amazigh": "icfar ",
+            "Eng": "turtle ",
+            "Spaans": "tortuga",
+            "Frans": "tortue",
+            "Duits": "Schildkröte"
+        },
+        {
+            "Ned": "kameleon",
+            "Amazigh": "tata",
+            "Eng": "chameleon ",
+            "Spaans": "camaleón",
+            "Frans": "caméléon",
+            "Duits": "Chamäleon"
+        },
+        {
+            "Ned": "zwaluw",
+            "Amazigh": "tiflillest",
+            "Eng": "swallow ",
+            "Spaans": "golondrina",
+            "Frans": "hirondelle",
+            "Duits": "Schwalbe "
+        },
+        {
+            "Ned": "duif",
+            "Amazigh": "adbir",
+            "Eng": "pigeon ",
+            "Spaans": "paloma",
+            "Frans": "pigeon",
+            "Duits": "Taube"
+        }
+    ],
+    "lebensmittel": [
+        {
+            "Ned": "eieren",
+            "Amazigh": "timejjalin",
+            "Eng": "eggs",
+            "Spaans": "huevos",
+            "Frans": "œufs",
+            "Duits": "Eier"
+        },
+        {
+            "Ned": "olie",
+            "Amazigh": "zzict",
+            "Eng": "oil",
+            "Spaans": "aceite",
+            "Frans": "huile",
+            "Duits": "Öl"
+        },
+        {
+            "Ned": "koekjes",
+            "Amazigh": "ɣayiṭa",
+            "Eng": "cookies",
+            "Spaans": "galletas",
+            "Frans": "biscuits",
+            "Duits": "Kekse"
+        },
+        {
+            "Ned": "thee",
+            "Amazigh": "atay",
+            "Eng": "tea",
+            "Spaans": "té",
+            "Frans": "thé",
+            "Duits": "Tee"
+        },
+        {
+            "Ned": "koffie",
+            "Amazigh": "rqehwa",
+            "Eng": "coffee",
+            "Spaans": "café",
+            "Frans": "café",
+            "Duits": "Kaffee"
+        },
+        {
+            "Ned": "melk",
+            "Amazigh": "aɣi",
+            "Eng": "milk",
+            "Spaans": "leche",
+            "Frans": "lait",
+            "Duits": "Milch"
+        },
+        {
+            "Ned": "yoghurt",
+            "Amazigh": "accil",
+            "Eng": "yogurt",
+            "Spaans": "yogur",
+            "Frans": "yaourt",
+            "Duits": "Joghurt"
+        },
+        {
+            "Ned": "water",
+            "Amazigh": "aman",
+            "Eng": "water",
+            "Spaans": "agua",
+            "Frans": "eau",
+            "Duits": "Wasser"
+        },
+        {
+            "Ned": "brood",
+            "Amazigh": "aɣrum",
+            "Eng": "bread",
+            "Spaans": "pan",
+            "Frans": "pain",
+            "Duits": "Brot"
+        },
+        {
+            "Ned": "honing",
+            "Amazigh": "tamment",
+            "Eng": "honey",
+            "Spaans": "miel",
+            "Frans": "miel",
+            "Duits": "Honig"
+        },
+        {
+            "Ned": "suiker",
+            "Amazigh": "sseqqur",
+            "Eng": "sugar",
+            "Spaans": "azúcar",
+            "Frans": "sucre",
+            "Duits": "Zucker"
+        },
+        {
+            "Ned": "zout",
+            "Amazigh": "tamellaḥt",
+            "Eng": "salt",
+            "Spaans": "sal",
+            "Frans": "sel",
+            "Duits": "Salz"
+        },
+        {
+            "Ned": "vlees",
+            "Amazigh": "aysum",
+            "Eng": "meat",
+            "Spaans": "carne",
+            "Frans": "viande",
+            "Duits": "Fleisch"
+        },
+        {
+            "Ned": "vissen",
+            "Amazigh": "iselman",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "boter",
+            "Amazigh": "ddhen",
+            "Eng": "butter",
+            "Spaans": "mantequilla",
+            "Frans": "beurre",
+            "Duits": "Butter"
+        }
+    ],
+    "kleider": [
+        {
+            "Ned": "broek",
+            "Amazigh": "ssarwal",
+            "Eng": "pants",
+            "Spaans": "pantalones",
+            "Frans": "pantalon",
+            "Duits": "Hose"
+        },
+        {
+            "Ned": "trui",
+            "Amazigh": "amaryul",
+            "Eng": "sweater",
+            "Spaans": "suéter",
+            "Frans": "chandail",
+            "Duits": "Pullover"
+        },
+        {
+            "Ned": "onderhemd",
+            "Amazigh": "camisita ",
+            "Eng": "undershirt",
+            "Spaans": "camiseta",
+            "Frans": "maillot de corps",
+            "Duits": "Unterhemd"
+        },
+        {
+            "Ned": "jas",
+            "Amazigh": "aqabud",
+            "Eng": "jacket",
+            "Spaans": "chaqueta",
+            "Frans": "veste",
+            "Duits": "Jacke"
+        },
+        {
+            "Ned": "schoenen",
+            "Amazigh": "tisila",
+            "Eng": "shoes",
+            "Spaans": "zapatos",
+            "Frans": "chaussures",
+            "Duits": "Schuhe"
+        },
+        {
+            "Ned": "laarzen",
+            "Amazigh": "ihakusen",
+            "Eng": "boots",
+            "Spaans": "botas",
+            "Frans": "bottes",
+            "Duits": "Stiefel"
+        },
+        {
+            "Ned": "muts",
+            "Amazigh": "tcaccict",
+            "Eng": "cap",
+            "Spaans": "gorro",
+            "Frans": "bonnet",
+            "Duits": "Kappe"
+        },
+        {
+            "Ned": "jurk",
+            "Amazigh": "tablust",
+            "Eng": "dress",
+            "Spaans": "vestido",
+            "Frans": "robe",
+            "Duits": "Kleid"
+        },
+        {
+            "Ned": "rok",
+            "Amazigh": "farda",
+            "Eng": "skirt",
+            "Spaans": "falda",
+            "Frans": "jupe",
+            "Duits": "Rock"
+        },
+        {
+            "Ned": "slippers",
+            "Amazigh": "tcinklat",
+            "Eng": "flip flops",
+            "Spaans": "chanclas",
+            "Frans": "claquette",
+            "Duits": "Flip Flops"
+        },
+        {
+            "Ned": "handschoenen",
+            "Amazigh": "iwantisan",
+            "Eng": "gloves",
+            "Spaans": "guantes",
+            "Frans": "gants",
+            "Duits": "Handschuhe"
+        },
+        {
+            "Ned": "sokken",
+            "Amazigh": "tqacir",
+            "Eng": "socks",
+            "Spaans": "calcetines",
+            "Frans": "chaussettes",
+            "Duits": "Socken"
+        },
+        {
+            "Ned": "overhemd",
+            "Amazigh": "taqmijjat",
+            "Eng": "shirt",
+            "Spaans": "camisa",
+            "Frans": "chemise",
+            "Duits": "Hemd"
+        },
+        {
+            "Ned": "sjaal",
+            "Amazigh": "ahewwak",
+            "Eng": "scarf",
+            "Spaans": "bufanda",
+            "Frans": "écharpe",
+            "Duits": "Schal"
+        },
+        {
+            "Ned": "riem",
+            "Amazigh": "abyas",
+            "Eng": "belt",
+            "Spaans": "cinturón",
+            "Frans": "ceinture",
+            "Duits": "Gürtel"
+        }
+    ],
+    "wetter": [
+        {
+            "Ned": "lente",
+            "Amazigh": "tafsut",
+            "Eng": "spring ",
+            "Spaans": "primavera",
+            "Frans": "printemps",
+            "Duits": "Frühling"
+        },
+        {
+            "Ned": "zomer",
+            "Amazigh": "anebdu",
+            "Eng": "summer ",
+            "Spaans": "verano",
+            "Frans": "été",
+            "Duits": "Sommer"
+        },
+        {
+            "Ned": "herfst",
+            "Amazigh": "leiglief",
+            "Eng": "autumn ",
+            "Spaans": "otoño",
+            "Frans": "automne",
+            "Duits": "Herbst"
+        },
+        {
+            "Ned": "winter",
+            "Amazigh": "tajarst",
+            "Eng": "winter",
+            "Spaans": "invierno",
+            "Frans": "hiver",
+            "Duits": "Winter"
+        },
+        {
+            "Ned": "regen",
+            "Amazigh": "anẓar",
+            "Eng": "rain",
+            "Spaans": "lluvia",
+            "Frans": "pluie",
+            "Duits": "Regen"
+        },
+        {
+            "Ned": "sneeuw",
+            "Amazigh": "adfel",
+            "Eng": "snow",
+            "Spaans": "nieve",
+            "Frans": "neige",
+            "Duits": "Schnee"
+        },
+        {
+            "Ned": "wind",
+            "Amazigh": "asemmiḍ",
+            "Eng": "wind",
+            "Spaans": "viento",
+            "Frans": "vent",
+            "Duits": "Wind"
+        },
+        {
+            "Ned": "regenboog",
+            "Amazigh": "taslit n unzar",
+            "Eng": "rainbow",
+            "Spaans": "arco iris",
+            "Frans": "arc en ciel",
+            "Duits": "Regenbogen"
+        },
+        {
+            "Ned": "maan",
+            "Amazigh": "yur",
+            "Eng": "moon",
+            "Spaans": "luna",
+            "Frans": "lune",
+            "Duits": "Mond"
+        },
+        {
+            "Ned": "zon",
+            "Amazigh": "tfuct",
+            "Eng": "sun",
+            "Spaans": "sol",
+            "Frans": "soleil",
+            "Duits": "Sonne"
+        },
+        {
+            "Ned": "wassende maan",
+            "Amazigh": "taziri",
+            "Eng": "crescent",
+            "Spaans": "creciente",
+            "Frans": "croissant",
+            "Duits": "Halbmond"
+        },
+        {
+            "Ned": "donder",
+            "Amazigh": "ajjaj",
+            "Eng": "thunder",
+            "Spaans": "trueno",
+            "Frans": "tonnerre",
+            "Duits": "Donner"
+        },
+        {
+            "Ned": "ster",
+            "Amazigh": "itri",
+            "Eng": "star",
+            "Spaans": "estrella",
+            "Frans": "vedette",
+            "Duits": "Star"
+        },
+        {
+            "Ned": "mist",
+            "Amazigh": "tayyut",
+            "Eng": "fog",
+            "Spaans": "niebla",
+            "Frans": "brouillard",
+            "Duits": "Nebel"
+        },
+        {
+            "Ned": "wolken",
+            "Amazigh": "asinu",
+            "Eng": "clouds",
+            "Spaans": "nubes",
+            "Frans": "nuages",
+            "Duits": "Wolken"
+        }
+    ],
+    "farben": [
+        {
+            "Ned": "rood",
+            "Amazigh": "azegg-aɣ",
+            "Eng": "red ",
+            "Spaans": "rojo",
+            "Frans": "rouge",
+            "Duits": "rot"
+        },
+        {
+            "Ned": "geel",
+            "Amazigh": "awraɣ",
+            "Eng": "yellow ",
+            "Spaans": "amarillo",
+            "Frans": "jaune",
+            "Duits": "gelb"
+        },
+        {
+            "Ned": "blauw",
+            "Amazigh": "aḥmaymi ",
+            "Eng": "blue ",
+            "Spaans": "azul",
+            "Frans": "bleu",
+            "Duits": "blau"
+        },
+        {
+            "Ned": "zwart",
+            "Amazigh": "abarcan",
+            "Eng": "black ",
+            "Spaans": "negro",
+            "Frans": "noir",
+            "Duits": "schwarz"
+        },
+        {
+            "Ned": "wit",
+            "Amazigh": "acemlal",
+            "Eng": "white ",
+            "Spaans": "blanco",
+            "Frans": "blanc",
+            "Duits": "weiß"
+        },
+        {
+            "Ned": "bruin",
+            "Amazigh": "ahemruni",
+            "Eng": "brown ",
+            "Spaans": "marrón",
+            "Frans": "brun",
+            "Duits": "braun"
+        },
+        {
+            "Ned": "groen",
+            "Amazigh": "aziza ",
+            "Eng": "green ",
+            "Spaans": "verde",
+            "Frans": "vert",
+            "Duits": "grün"
+        },
+        {
+            "Ned": "oranje",
+            "Amazigh": "aletcini",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "orange"
+        },
+        {
+            "Ned": "bont",
+            "Amazigh": "akarkac",
+            "Eng": "colourful",
+            "Spaans": "vistoso",
+            "Frans": "coloré",
+            "Duits": "bunt"
+        },
+        {
+            "Ned": "paars",
+            "Amazigh": "azbaybi ",
+            "Eng": "purple",
+            "Spaans": "morado",
+            "Frans": "mauve",
+            "Duits": "lila"
+        }
+    ],
+    "animals01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ],
+    "insects": [
+        {
+            "Ned": "slak",
+            "Amazigh": "aɣlal ",
+            "Eng": "snail ",
+            "Spaans": "caracol",
+            "Frans": "escargot",
+            "Duits": "Schnecke"
+        },
+        {
+            "Ned": "regenworm",
+            "Amazigh": "adan n tmurt ",
+            "Eng": "earthworm ",
+            "Spaans": "lombriz",
+            "Frans": "ver de terre",
+            "Duits": "Regenwurm"
+        },
+        {
+            "Ned": "larve",
+            "Amazigh": "takecca",
+            "Eng": "larva ",
+            "Spaans": "larva",
+            "Frans": "larve",
+            "Duits": "Larve"
+        },
+        {
+            "Ned": "vlieg",
+            "Amazigh": "iẓi",
+            "Eng": "fly",
+            "Spaans": "mosca",
+            "Frans": "mouche",
+            "Duits": "Fliege"
+        },
+        {
+            "Ned": "bij",
+            "Amazigh": "zizwit",
+            "Eng": "bee ",
+            "Spaans": "abeja",
+            "Frans": "abeille",
+            "Duits": "Biene"
+        },
+        {
+            "Ned": "mug",
+            "Amazigh": "nnamus",
+            "Eng": "mosquito ",
+            "Spaans": "mosquito",
+            "Frans": "moustique",
+            "Duits": "Mücke"
+        },
+        {
+            "Ned": "mier",
+            "Amazigh": "tikedfet",
+            "Eng": "ant ",
+            "Spaans": "hormiga",
+            "Frans": "fourmi",
+            "Duits": "Ameise"
+        },
+        {
+            "Ned": "vlinder",
+            "Amazigh": "aferṭṭu",
+            "Eng": "butterfly ",
+            "Spaans": "mariposa",
+            "Frans": "papillon",
+            "Duits": "Schmetterling"
+        },
+        {
+            "Ned": "spin",
+            "Amazigh": "qundɣa ",
+            "Eng": "spider ",
+            "Spaans": "araña",
+            "Frans": "araignée",
+            "Duits": "Spinne"
+        },
+        {
+            "Ned": "sprinkhaan",
+            "Amazigh": "burxes",
+            "Eng": "grasshopper ",
+            "Spaans": "saltamontes",
+            "Frans": "sauterelle",
+            "Duits": "Heuschrecke"
+        },
+        {
+            "Ned": "rups",
+            "Amazigh": "bugḍif",
+            "Eng": "caterpillar",
+            "Spaans": "oruga",
+            "Frans": "chenille",
+            "Duits": "Raupe"
+        },
+        {
+            "Ned": "wesp",
+            "Amazigh": "yaẓẓa",
+            "Eng": "wasp",
+            "Spaans": "avispa",
+            "Frans": "guêpe",
+            "Duits": "Wespe"
+        },
+        {
+            "Ned": "naaktslak",
+            "Amazigh": "buccel ",
+            "Eng": "slug",
+            "Spaans": "babosa",
+            "Frans": "limace",
+            "Duits": "Nacktschnecke"
+        },
+        {
+            "Ned": "bloedzuiger",
+            "Amazigh": "tiḍḍa",
+            "Eng": "leech",
+            "Spaans": "sanguijuela",
+            "Frans": "sangsue",
+            "Duits": "Blutsauger"
+        },
+        {
+            "Ned": "bidsprinkhaan",
+            "Amazigh": "tamraebt",
+            "Eng": "mantis",
+            "Spaans": "mantis",
+            "Frans": "mante",
+            "Duits": "Gottesanbeterin"
+        }
+    ],
+    "vegetables": [
+        {
+            "Ned": "kikkererwten",
+            "Amazigh": "rḥimez",
+            "Eng": "chickpeas ",
+            "Spaans": "garbanzos",
+            "Frans": "pois chiches",
+            "Duits": "Kichererbsen"
+        },
+        {
+            "Ned": "linzen",
+            "Amazigh": "leɛdes",
+            "Eng": "lentils ",
+            "Spaans": "lentejas",
+            "Frans": "lentilles",
+            "Duits": "Linsen"
+        },
+        {
+            "Ned": "bonen",
+            "Amazigh": "llubeyyet",
+            "Eng": "beans ",
+            "Spaans": "frijoles",
+            "Frans": "haricots",
+            "Duits": "Bohnen"
+        },
+        {
+            "Ned": "tomaat",
+            "Amazigh": "ttumatic",
+            "Eng": "tomato ",
+            "Spaans": "tomate",
+            "Frans": "tomate",
+            "Duits": "Tomate"
+        },
+        {
+            "Ned": "olijven",
+            "Amazigh": "zzitun",
+            "Eng": "olives ",
+            "Spaans": "aceitunas",
+            "Frans": "olives",
+            "Duits": "Oliven"
+        },
+        {
+            "Ned": "aardappel",
+            "Amazigh": "baṭaṭa",
+            "Eng": "potato ",
+            "Spaans": "patata ",
+            "Frans": "pomme de terre",
+            "Duits": "Kartoffel"
+        },
+        {
+            "Ned": "ui",
+            "Amazigh": "rebser",
+            "Eng": "onion ",
+            "Spaans": "cebolla",
+            "Frans": "oignon",
+            "Duits": "Zwiebel"
+        },
+        {
+            "Ned": "knoflook",
+            "Amazigh": "ticcart",
+            "Eng": "garlic ",
+            "Spaans": "ajo",
+            "Frans": "ail",
+            "Duits": "Knoblauch"
+        },
+        {
+            "Ned": "maïs",
+            "Amazigh": "dra",
+            "Eng": "corn ",
+            "Spaans": "maíz",
+            "Frans": "maïs",
+            "Duits": "Mais"
+        },
+        {
+            "Ned": "paprika",
+            "Amazigh": "rferfer",
+            "Eng": "bell pepper ",
+            "Spaans": "pimiento",
+            "Frans": "poivron",
+            "Duits": "Paprika"
+        },
+        {
+            "Ned": "pompoen",
+            "Amazigh": "taxsact",
+            "Eng": "pumpkin ",
+            "Spaans": "calabaza",
+            "Frans": "citrouille",
+            "Duits": "Kürbis"
+        },
+        {
+            "Ned": "wortel",
+            "Amazigh": "xizzu",
+            "Eng": "carrot",
+            "Spaans": "zanahoria",
+            "Frans": "carotte",
+            "Duits": "Karotte"
+        },
+        {
+            "Ned": "(dop)erwten",
+            "Amazigh": "tinifin",
+            "Eng": "peas",
+            "Spaans": "chícharos",
+            "Frans": "petit pois",
+            "Duits": "Erbsen"
+        },
+        {
+            "Ned": "tuinbonen",
+            "Amazigh": "ibawen",
+            "Eng": "broad beans",
+            "Spaans": "habas",
+            "Frans": "fèves",
+            "Duits": "Saubohnen"
+        },
+        {
+            "Ned": "spinazie",
+            "Amazigh": "ṭebi ",
+            "Eng": "spinach ",
+            "Spaans": "espinacas",
+            "Frans": "épinards",
+            "Duits": "Spinat"
+        }
+    ],
+    "animals02": [
+        {
+            "Ned": "patrijs",
+            "Amazigh": "asekkur",
+            "Eng": "partridge ",
+            "Spaans": "perdiz",
+            "Frans": "perdrix",
+            "Duits": "Rebhuhn"
+        },
+        {
+            "Ned": "uil",
+            "Amazigh": "muka",
+            "Eng": "owl ",
+            "Spaans": "búho",
+            "Frans": "chouette",
+            "Duits": "Eule"
+        },
+        {
+            "Ned": "gekko",
+            "Amazigh": "aḥamchel ",
+            "Eng": "gecko ",
+            "Spaans": "geco",
+            "Frans": "gecko",
+            "Duits": "Gecko"
+        },
+        {
+            "Ned": "schorpioen",
+            "Amazigh": "tɣirdent  ",
+            "Eng": "scorpion ",
+            "Spaans": "escorpión",
+            "Frans": "scorpion",
+            "Duits": "Skorpion"
+        },
+        {
+            "Ned": "stekelvarken",
+            "Amazigh": "aruy",
+            "Eng": "porcupine ",
+            "Spaans": "puerco espín",
+            "Frans": "porc-épic",
+            "Duits": "Stachelschwein"
+        },
+        {
+            "Ned": "haas",
+            "Amazigh": "ayaṛziz",
+            "Eng": "hare ",
+            "Spaans": "liebre",
+            "Frans": "lièvre",
+            "Duits": "Hase"
+        },
+        {
+            "Ned": "vos",
+            "Amazigh": "icɛb",
+            "Eng": "fox ",
+            "Spaans": "zorro",
+            "Frans": "renard",
+            "Duits": "Fuchs"
+        },
+        {
+            "Ned": "windhond",
+            "Amazigh": "uccay",
+            "Eng": "greyhound ",
+            "Spaans": "galgo",
+            "Frans": "levrette",
+            "Duits": "Windhund"
+        },
+        {
+            "Ned": "hyena",
+            "Amazigh": "ifis",
+            "Eng": "hyena ",
+            "Spaans": "hiena",
+            "Frans": "hyène",
+            "Duits": "Hyäne"
+        },
+        {
+            "Ned": "wild_zwijn",
+            "Amazigh": "ilf",
+            "Eng": "boar",
+            "Spaans": "jabali",
+            "Frans": "sanglier",
+            "Duits": "Wildschwein"
+        },
+        {
+            "Ned": "slang",
+            "Amazigh": "afiɣra",
+            "Eng": "snake (viper)",
+            "Spaans": "serpiente (víbora)",
+            "Frans": "serpent (vipère)",
+            "Duits": "Schlange (Viper)"
+        },
+        {
+            "Ned": "schildpad",
+            "Amazigh": "icfar ",
+            "Eng": "turtle ",
+            "Spaans": "tortuga",
+            "Frans": "tortue",
+            "Duits": "Schildkröte"
+        },
+        {
+            "Ned": "kameleon",
+            "Amazigh": "tata",
+            "Eng": "chameleon ",
+            "Spaans": "camaleón",
+            "Frans": "caméléon",
+            "Duits": "Chamäleon"
+        },
+        {
+            "Ned": "zwaluw",
+            "Amazigh": "tiflillest",
+            "Eng": "swallow ",
+            "Spaans": "golondrina",
+            "Frans": "hirondelle",
+            "Duits": "Schwalbe "
+        },
+        {
+            "Ned": "duif",
+            "Amazigh": "adbir",
+            "Eng": "pigeon ",
+            "Spaans": "paloma",
+            "Frans": "pigeon",
+            "Duits": "Taube"
+        }
+    ],
+    "food": [
+        {
+            "Ned": "eieren",
+            "Amazigh": "timejjalin",
+            "Eng": "eggs",
+            "Spaans": "huevos",
+            "Frans": "œufs",
+            "Duits": "Eier"
+        },
+        {
+            "Ned": "olie",
+            "Amazigh": "zzict",
+            "Eng": "oil",
+            "Spaans": "aceite",
+            "Frans": "huile",
+            "Duits": "Öl"
+        },
+        {
+            "Ned": "koekjes",
+            "Amazigh": "ɣayiṭa",
+            "Eng": "cookies",
+            "Spaans": "galletas",
+            "Frans": "biscuits",
+            "Duits": "Kekse"
+        },
+        {
+            "Ned": "thee",
+            "Amazigh": "atay",
+            "Eng": "tea",
+            "Spaans": "té",
+            "Frans": "thé",
+            "Duits": "Tee"
+        },
+        {
+            "Ned": "koffie",
+            "Amazigh": "rqehwa",
+            "Eng": "coffee",
+            "Spaans": "café",
+            "Frans": "café",
+            "Duits": "Kaffee"
+        },
+        {
+            "Ned": "melk",
+            "Amazigh": "aɣi",
+            "Eng": "milk",
+            "Spaans": "leche",
+            "Frans": "lait",
+            "Duits": "Milch"
+        },
+        {
+            "Ned": "yoghurt",
+            "Amazigh": "accil",
+            "Eng": "yogurt",
+            "Spaans": "yogur",
+            "Frans": "yaourt",
+            "Duits": "Joghurt"
+        },
+        {
+            "Ned": "water",
+            "Amazigh": "aman",
+            "Eng": "water",
+            "Spaans": "agua",
+            "Frans": "eau",
+            "Duits": "Wasser"
+        },
+        {
+            "Ned": "brood",
+            "Amazigh": "aɣrum",
+            "Eng": "bread",
+            "Spaans": "pan",
+            "Frans": "pain",
+            "Duits": "Brot"
+        },
+        {
+            "Ned": "honing",
+            "Amazigh": "tamment",
+            "Eng": "honey",
+            "Spaans": "miel",
+            "Frans": "miel",
+            "Duits": "Honig"
+        },
+        {
+            "Ned": "suiker",
+            "Amazigh": "sseqqur",
+            "Eng": "sugar",
+            "Spaans": "azúcar",
+            "Frans": "sucre",
+            "Duits": "Zucker"
+        },
+        {
+            "Ned": "zout",
+            "Amazigh": "tamellaḥt",
+            "Eng": "salt",
+            "Spaans": "sal",
+            "Frans": "sel",
+            "Duits": "Salz"
+        },
+        {
+            "Ned": "vlees",
+            "Amazigh": "aysum",
+            "Eng": "meat",
+            "Spaans": "carne",
+            "Frans": "viande",
+            "Duits": "Fleisch"
+        },
+        {
+            "Ned": "vissen",
+            "Amazigh": "iselman",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "boter",
+            "Amazigh": "ddhen",
+            "Eng": "butter",
+            "Spaans": "mantequilla",
+            "Frans": "beurre",
+            "Duits": "Butter"
+        }
+    ],
+    "clothing": [
+        {
+            "Ned": "broek",
+            "Amazigh": "ssarwal",
+            "Eng": "pants",
+            "Spaans": "pantalones",
+            "Frans": "pantalon",
+            "Duits": "Hose"
+        },
+        {
+            "Ned": "trui",
+            "Amazigh": "amaryul",
+            "Eng": "sweater",
+            "Spaans": "suéter",
+            "Frans": "chandail",
+            "Duits": "Pullover"
+        },
+        {
+            "Ned": "onderhemd",
+            "Amazigh": "camisita ",
+            "Eng": "undershirt",
+            "Spaans": "camiseta",
+            "Frans": "maillot de corps",
+            "Duits": "Unterhemd"
+        },
+        {
+            "Ned": "jas",
+            "Amazigh": "aqabud",
+            "Eng": "jacket",
+            "Spaans": "chaqueta",
+            "Frans": "veste",
+            "Duits": "Jacke"
+        },
+        {
+            "Ned": "schoenen",
+            "Amazigh": "tisila",
+            "Eng": "shoes",
+            "Spaans": "zapatos",
+            "Frans": "chaussures",
+            "Duits": "Schuhe"
+        },
+        {
+            "Ned": "laarzen",
+            "Amazigh": "ihakusen",
+            "Eng": "boots",
+            "Spaans": "botas",
+            "Frans": "bottes",
+            "Duits": "Stiefel"
+        },
+        {
+            "Ned": "muts",
+            "Amazigh": "tcaccict",
+            "Eng": "cap",
+            "Spaans": "gorro",
+            "Frans": "bonnet",
+            "Duits": "Kappe"
+        },
+        {
+            "Ned": "jurk",
+            "Amazigh": "tablust",
+            "Eng": "dress",
+            "Spaans": "vestido",
+            "Frans": "robe",
+            "Duits": "Kleid"
+        },
+        {
+            "Ned": "rok",
+            "Amazigh": "farda",
+            "Eng": "skirt",
+            "Spaans": "falda",
+            "Frans": "jupe",
+            "Duits": "Rock"
+        },
+        {
+            "Ned": "slippers",
+            "Amazigh": "tcinklat",
+            "Eng": "flip flops",
+            "Spaans": "chanclas",
+            "Frans": "claquette",
+            "Duits": "Flip Flops"
+        },
+        {
+            "Ned": "handschoenen",
+            "Amazigh": "iwantisan",
+            "Eng": "gloves",
+            "Spaans": "guantes",
+            "Frans": "gants",
+            "Duits": "Handschuhe"
+        },
+        {
+            "Ned": "sokken",
+            "Amazigh": "tqacir",
+            "Eng": "socks",
+            "Spaans": "calcetines",
+            "Frans": "chaussettes",
+            "Duits": "Socken"
+        },
+        {
+            "Ned": "overhemd",
+            "Amazigh": "taqmijjat",
+            "Eng": "shirt",
+            "Spaans": "camisa",
+            "Frans": "chemise",
+            "Duits": "Hemd"
+        },
+        {
+            "Ned": "sjaal",
+            "Amazigh": "ahewwak",
+            "Eng": "scarf",
+            "Spaans": "bufanda",
+            "Frans": "écharpe",
+            "Duits": "Schal"
+        },
+        {
+            "Ned": "riem",
+            "Amazigh": "abyas",
+            "Eng": "belt",
+            "Spaans": "cinturón",
+            "Frans": "ceinture",
+            "Duits": "Gürtel"
+        }
+    ],
+    "weather": [
+        {
+            "Ned": "lente",
+            "Amazigh": "tafsut",
+            "Eng": "spring ",
+            "Spaans": "primavera",
+            "Frans": "printemps",
+            "Duits": "Frühling"
+        },
+        {
+            "Ned": "zomer",
+            "Amazigh": "anebdu",
+            "Eng": "summer ",
+            "Spaans": "verano",
+            "Frans": "été",
+            "Duits": "Sommer"
+        },
+        {
+            "Ned": "herfst",
+            "Amazigh": "leiglief",
+            "Eng": "autumn ",
+            "Spaans": "otoño",
+            "Frans": "automne",
+            "Duits": "Herbst"
+        },
+        {
+            "Ned": "winter",
+            "Amazigh": "tajarst",
+            "Eng": "winter",
+            "Spaans": "invierno",
+            "Frans": "hiver",
+            "Duits": "Winter"
+        },
+        {
+            "Ned": "regen",
+            "Amazigh": "anẓar",
+            "Eng": "rain",
+            "Spaans": "lluvia",
+            "Frans": "pluie",
+            "Duits": "Regen"
+        },
+        {
+            "Ned": "sneeuw",
+            "Amazigh": "adfel",
+            "Eng": "snow",
+            "Spaans": "nieve",
+            "Frans": "neige",
+            "Duits": "Schnee"
+        },
+        {
+            "Ned": "wind",
+            "Amazigh": "asemmiḍ",
+            "Eng": "wind",
+            "Spaans": "viento",
+            "Frans": "vent",
+            "Duits": "Wind"
+        },
+        {
+            "Ned": "regenboog",
+            "Amazigh": "taslit n unzar",
+            "Eng": "rainbow",
+            "Spaans": "arco iris",
+            "Frans": "arc en ciel",
+            "Duits": "Regenbogen"
+        },
+        {
+            "Ned": "maan",
+            "Amazigh": "yur",
+            "Eng": "moon",
+            "Spaans": "luna",
+            "Frans": "lune",
+            "Duits": "Mond"
+        },
+        {
+            "Ned": "zon",
+            "Amazigh": "tfuct",
+            "Eng": "sun",
+            "Spaans": "sol",
+            "Frans": "soleil",
+            "Duits": "Sonne"
+        },
+        {
+            "Ned": "wassende maan",
+            "Amazigh": "taziri",
+            "Eng": "crescent",
+            "Spaans": "creciente",
+            "Frans": "croissant",
+            "Duits": "Halbmond"
+        },
+        {
+            "Ned": "donder",
+            "Amazigh": "ajjaj",
+            "Eng": "thunder",
+            "Spaans": "trueno",
+            "Frans": "tonnerre",
+            "Duits": "Donner"
+        },
+        {
+            "Ned": "ster",
+            "Amazigh": "itri",
+            "Eng": "star",
+            "Spaans": "estrella",
+            "Frans": "vedette",
+            "Duits": "Star"
+        },
+        {
+            "Ned": "mist",
+            "Amazigh": "tayyut",
+            "Eng": "fog",
+            "Spaans": "niebla",
+            "Frans": "brouillard",
+            "Duits": "Nebel"
+        },
+        {
+            "Ned": "wolken",
+            "Amazigh": "asinu",
+            "Eng": "clouds",
+            "Spaans": "nubes",
+            "Frans": "nuages",
+            "Duits": "Wolken"
+        }
+    ],
+    "colors": [
+        {
+            "Ned": "rood",
+            "Amazigh": "azegg-aɣ",
+            "Eng": "red ",
+            "Spaans": "rojo",
+            "Frans": "rouge",
+            "Duits": "rot"
+        },
+        {
+            "Ned": "geel",
+            "Amazigh": "awraɣ",
+            "Eng": "yellow ",
+            "Spaans": "amarillo",
+            "Frans": "jaune",
+            "Duits": "gelb"
+        },
+        {
+            "Ned": "blauw",
+            "Amazigh": "aḥmaymi ",
+            "Eng": "blue ",
+            "Spaans": "azul",
+            "Frans": "bleu",
+            "Duits": "blau"
+        },
+        {
+            "Ned": "zwart",
+            "Amazigh": "abarcan",
+            "Eng": "black ",
+            "Spaans": "negro",
+            "Frans": "noir",
+            "Duits": "schwarz"
+        },
+        {
+            "Ned": "wit",
+            "Amazigh": "acemlal",
+            "Eng": "white ",
+            "Spaans": "blanco",
+            "Frans": "blanc",
+            "Duits": "weiß"
+        },
+        {
+            "Ned": "bruin",
+            "Amazigh": "ahemruni",
+            "Eng": "brown ",
+            "Spaans": "marrón",
+            "Frans": "brun",
+            "Duits": "braun"
+        },
+        {
+            "Ned": "groen",
+            "Amazigh": "aziza ",
+            "Eng": "green ",
+            "Spaans": "verde",
+            "Frans": "vert",
+            "Duits": "grün"
+        },
+        {
+            "Ned": "oranje",
+            "Amazigh": "aletcini",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "orange"
+        },
+        {
+            "Ned": "bont",
+            "Amazigh": "akarkac",
+            "Eng": "colourful",
+            "Spaans": "vistoso",
+            "Frans": "coloré",
+            "Duits": "bunt"
+        },
+        {
+            "Ned": "paars",
+            "Amazigh": "azbaybi ",
+            "Eng": "purple",
+            "Spaans": "morado",
+            "Frans": "mauve",
+            "Duits": "lila"
+        }
+    ],
+    "animales01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ],
+    "insectes": [
+        {
+            "Ned": "slak",
+            "Amazigh": "aɣlal ",
+            "Eng": "snail ",
+            "Spaans": "caracol",
+            "Frans": "escargot",
+            "Duits": "Schnecke"
+        },
+        {
+            "Ned": "regenworm",
+            "Amazigh": "adan n tmurt ",
+            "Eng": "earthworm ",
+            "Spaans": "lombriz",
+            "Frans": "ver de terre",
+            "Duits": "Regenwurm"
+        },
+        {
+            "Ned": "larve",
+            "Amazigh": "takecca",
+            "Eng": "larva ",
+            "Spaans": "larva",
+            "Frans": "larve",
+            "Duits": "Larve"
+        },
+        {
+            "Ned": "vlieg",
+            "Amazigh": "iẓi",
+            "Eng": "fly",
+            "Spaans": "mosca",
+            "Frans": "mouche",
+            "Duits": "Fliege"
+        },
+        {
+            "Ned": "bij",
+            "Amazigh": "zizwit",
+            "Eng": "bee ",
+            "Spaans": "abeja",
+            "Frans": "abeille",
+            "Duits": "Biene"
+        },
+        {
+            "Ned": "mug",
+            "Amazigh": "nnamus",
+            "Eng": "mosquito ",
+            "Spaans": "mosquito",
+            "Frans": "moustique",
+            "Duits": "Mücke"
+        },
+        {
+            "Ned": "mier",
+            "Amazigh": "tikedfet",
+            "Eng": "ant ",
+            "Spaans": "hormiga",
+            "Frans": "fourmi",
+            "Duits": "Ameise"
+        },
+        {
+            "Ned": "vlinder",
+            "Amazigh": "aferṭṭu",
+            "Eng": "butterfly ",
+            "Spaans": "mariposa",
+            "Frans": "papillon",
+            "Duits": "Schmetterling"
+        },
+        {
+            "Ned": "spin",
+            "Amazigh": "qundɣa ",
+            "Eng": "spider ",
+            "Spaans": "araña",
+            "Frans": "araignée",
+            "Duits": "Spinne"
+        },
+        {
+            "Ned": "sprinkhaan",
+            "Amazigh": "burxes",
+            "Eng": "grasshopper ",
+            "Spaans": "saltamontes",
+            "Frans": "sauterelle",
+            "Duits": "Heuschrecke"
+        },
+        {
+            "Ned": "rups",
+            "Amazigh": "bugḍif",
+            "Eng": "caterpillar",
+            "Spaans": "oruga",
+            "Frans": "chenille",
+            "Duits": "Raupe"
+        },
+        {
+            "Ned": "wesp",
+            "Amazigh": "yaẓẓa",
+            "Eng": "wasp",
+            "Spaans": "avispa",
+            "Frans": "guêpe",
+            "Duits": "Wespe"
+        },
+        {
+            "Ned": "naaktslak",
+            "Amazigh": "buccel ",
+            "Eng": "slug",
+            "Spaans": "babosa",
+            "Frans": "limace",
+            "Duits": "Nacktschnecke"
+        },
+        {
+            "Ned": "bloedzuiger",
+            "Amazigh": "tiḍḍa",
+            "Eng": "leech",
+            "Spaans": "sanguijuela",
+            "Frans": "sangsue",
+            "Duits": "Blutsauger"
+        },
+        {
+            "Ned": "bidsprinkhaan",
+            "Amazigh": "tamraebt",
+            "Eng": "mantis",
+            "Spaans": "mantis",
+            "Frans": "mante",
+            "Duits": "Gottesanbeterin"
+        }
+    ],
+    "vegetal": [
+        {
+            "Ned": "kikkererwten",
+            "Amazigh": "rḥimez",
+            "Eng": "chickpeas ",
+            "Spaans": "garbanzos",
+            "Frans": "pois chiches",
+            "Duits": "Kichererbsen"
+        },
+        {
+            "Ned": "linzen",
+            "Amazigh": "leɛdes",
+            "Eng": "lentils ",
+            "Spaans": "lentejas",
+            "Frans": "lentilles",
+            "Duits": "Linsen"
+        },
+        {
+            "Ned": "bonen",
+            "Amazigh": "llubeyyet",
+            "Eng": "beans ",
+            "Spaans": "frijoles",
+            "Frans": "haricots",
+            "Duits": "Bohnen"
+        },
+        {
+            "Ned": "tomaat",
+            "Amazigh": "ttumatic",
+            "Eng": "tomato ",
+            "Spaans": "tomate",
+            "Frans": "tomate",
+            "Duits": "Tomate"
+        },
+        {
+            "Ned": "olijven",
+            "Amazigh": "zzitun",
+            "Eng": "olives ",
+            "Spaans": "aceitunas",
+            "Frans": "olives",
+            "Duits": "Oliven"
+        },
+        {
+            "Ned": "aardappel",
+            "Amazigh": "baṭaṭa",
+            "Eng": "potato ",
+            "Spaans": "patata ",
+            "Frans": "pomme de terre",
+            "Duits": "Kartoffel"
+        },
+        {
+            "Ned": "ui",
+            "Amazigh": "rebser",
+            "Eng": "onion ",
+            "Spaans": "cebolla",
+            "Frans": "oignon",
+            "Duits": "Zwiebel"
+        },
+        {
+            "Ned": "knoflook",
+            "Amazigh": "ticcart",
+            "Eng": "garlic ",
+            "Spaans": "ajo",
+            "Frans": "ail",
+            "Duits": "Knoblauch"
+        },
+        {
+            "Ned": "maïs",
+            "Amazigh": "dra",
+            "Eng": "corn ",
+            "Spaans": "maíz",
+            "Frans": "maïs",
+            "Duits": "Mais"
+        },
+        {
+            "Ned": "paprika",
+            "Amazigh": "rferfer",
+            "Eng": "bell pepper ",
+            "Spaans": "pimiento",
+            "Frans": "poivron",
+            "Duits": "Paprika"
+        },
+        {
+            "Ned": "pompoen",
+            "Amazigh": "taxsact",
+            "Eng": "pumpkin ",
+            "Spaans": "calabaza",
+            "Frans": "citrouille",
+            "Duits": "Kürbis"
+        },
+        {
+            "Ned": "wortel",
+            "Amazigh": "xizzu",
+            "Eng": "carrot",
+            "Spaans": "zanahoria",
+            "Frans": "carotte",
+            "Duits": "Karotte"
+        },
+        {
+            "Ned": "(dop)erwten",
+            "Amazigh": "tinifin",
+            "Eng": "peas",
+            "Spaans": "chícharos",
+            "Frans": "petit pois",
+            "Duits": "Erbsen"
+        },
+        {
+            "Ned": "tuinbonen",
+            "Amazigh": "ibawen",
+            "Eng": "broad beans",
+            "Spaans": "habas",
+            "Frans": "fèves",
+            "Duits": "Saubohnen"
+        },
+        {
+            "Ned": "spinazie",
+            "Amazigh": "ṭebi ",
+            "Eng": "spinach ",
+            "Spaans": "espinacas",
+            "Frans": "épinards",
+            "Duits": "Spinat"
+        }
+    ],
+    "animales02": [
+        {
+            "Ned": "patrijs",
+            "Amazigh": "asekkur",
+            "Eng": "partridge ",
+            "Spaans": "perdiz",
+            "Frans": "perdrix",
+            "Duits": "Rebhuhn"
+        },
+        {
+            "Ned": "uil",
+            "Amazigh": "muka",
+            "Eng": "owl ",
+            "Spaans": "búho",
+            "Frans": "chouette",
+            "Duits": "Eule"
+        },
+        {
+            "Ned": "gekko",
+            "Amazigh": "aḥamchel ",
+            "Eng": "gecko ",
+            "Spaans": "geco",
+            "Frans": "gecko",
+            "Duits": "Gecko"
+        },
+        {
+            "Ned": "schorpioen",
+            "Amazigh": "tɣirdent  ",
+            "Eng": "scorpion ",
+            "Spaans": "escorpión",
+            "Frans": "scorpion",
+            "Duits": "Skorpion"
+        },
+        {
+            "Ned": "stekelvarken",
+            "Amazigh": "aruy",
+            "Eng": "porcupine ",
+            "Spaans": "puerco espín",
+            "Frans": "porc-épic",
+            "Duits": "Stachelschwein"
+        },
+        {
+            "Ned": "haas",
+            "Amazigh": "ayaṛziz",
+            "Eng": "hare ",
+            "Spaans": "liebre",
+            "Frans": "lièvre",
+            "Duits": "Hase"
+        },
+        {
+            "Ned": "vos",
+            "Amazigh": "icɛb",
+            "Eng": "fox ",
+            "Spaans": "zorro",
+            "Frans": "renard",
+            "Duits": "Fuchs"
+        },
+        {
+            "Ned": "windhond",
+            "Amazigh": "uccay",
+            "Eng": "greyhound ",
+            "Spaans": "galgo",
+            "Frans": "levrette",
+            "Duits": "Windhund"
+        },
+        {
+            "Ned": "hyena",
+            "Amazigh": "ifis",
+            "Eng": "hyena ",
+            "Spaans": "hiena",
+            "Frans": "hyène",
+            "Duits": "Hyäne"
+        },
+        {
+            "Ned": "wild_zwijn",
+            "Amazigh": "ilf",
+            "Eng": "boar",
+            "Spaans": "jabali",
+            "Frans": "sanglier",
+            "Duits": "Wildschwein"
+        },
+        {
+            "Ned": "slang",
+            "Amazigh": "afiɣra",
+            "Eng": "snake (viper)",
+            "Spaans": "serpiente (víbora)",
+            "Frans": "serpent (vipère)",
+            "Duits": "Schlange (Viper)"
+        },
+        {
+            "Ned": "schildpad",
+            "Amazigh": "icfar ",
+            "Eng": "turtle ",
+            "Spaans": "tortuga",
+            "Frans": "tortue",
+            "Duits": "Schildkröte"
+        },
+        {
+            "Ned": "kameleon",
+            "Amazigh": "tata",
+            "Eng": "chameleon ",
+            "Spaans": "camaleón",
+            "Frans": "caméléon",
+            "Duits": "Chamäleon"
+        },
+        {
+            "Ned": "zwaluw",
+            "Amazigh": "tiflillest",
+            "Eng": "swallow ",
+            "Spaans": "golondrina",
+            "Frans": "hirondelle",
+            "Duits": "Schwalbe "
+        },
+        {
+            "Ned": "duif",
+            "Amazigh": "adbir",
+            "Eng": "pigeon ",
+            "Spaans": "paloma",
+            "Frans": "pigeon",
+            "Duits": "Taube"
+        }
+    ],
+    "comida": [
+        {
+            "Ned": "eieren",
+            "Amazigh": "timejjalin",
+            "Eng": "eggs",
+            "Spaans": "huevos",
+            "Frans": "œufs",
+            "Duits": "Eier"
+        },
+        {
+            "Ned": "olie",
+            "Amazigh": "zzict",
+            "Eng": "oil",
+            "Spaans": "aceite",
+            "Frans": "huile",
+            "Duits": "Öl"
+        },
+        {
+            "Ned": "koekjes",
+            "Amazigh": "ɣayiṭa",
+            "Eng": "cookies",
+            "Spaans": "galletas",
+            "Frans": "biscuits",
+            "Duits": "Kekse"
+        },
+        {
+            "Ned": "thee",
+            "Amazigh": "atay",
+            "Eng": "tea",
+            "Spaans": "té",
+            "Frans": "thé",
+            "Duits": "Tee"
+        },
+        {
+            "Ned": "koffie",
+            "Amazigh": "rqehwa",
+            "Eng": "coffee",
+            "Spaans": "café",
+            "Frans": "café",
+            "Duits": "Kaffee"
+        },
+        {
+            "Ned": "melk",
+            "Amazigh": "aɣi",
+            "Eng": "milk",
+            "Spaans": "leche",
+            "Frans": "lait",
+            "Duits": "Milch"
+        },
+        {
+            "Ned": "yoghurt",
+            "Amazigh": "accil",
+            "Eng": "yogurt",
+            "Spaans": "yogur",
+            "Frans": "yaourt",
+            "Duits": "Joghurt"
+        },
+        {
+            "Ned": "water",
+            "Amazigh": "aman",
+            "Eng": "water",
+            "Spaans": "agua",
+            "Frans": "eau",
+            "Duits": "Wasser"
+        },
+        {
+            "Ned": "brood",
+            "Amazigh": "aɣrum",
+            "Eng": "bread",
+            "Spaans": "pan",
+            "Frans": "pain",
+            "Duits": "Brot"
+        },
+        {
+            "Ned": "honing",
+            "Amazigh": "tamment",
+            "Eng": "honey",
+            "Spaans": "miel",
+            "Frans": "miel",
+            "Duits": "Honig"
+        },
+        {
+            "Ned": "suiker",
+            "Amazigh": "sseqqur",
+            "Eng": "sugar",
+            "Spaans": "azúcar",
+            "Frans": "sucre",
+            "Duits": "Zucker"
+        },
+        {
+            "Ned": "zout",
+            "Amazigh": "tamellaḥt",
+            "Eng": "salt",
+            "Spaans": "sal",
+            "Frans": "sel",
+            "Duits": "Salz"
+        },
+        {
+            "Ned": "vlees",
+            "Amazigh": "aysum",
+            "Eng": "meat",
+            "Spaans": "carne",
+            "Frans": "viande",
+            "Duits": "Fleisch"
+        },
+        {
+            "Ned": "vissen",
+            "Amazigh": "iselman",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "boter",
+            "Amazigh": "ddhen",
+            "Eng": "butter",
+            "Spaans": "mantequilla",
+            "Frans": "beurre",
+            "Duits": "Butter"
+        }
+    ],
+    "ropa": [
+        {
+            "Ned": "broek",
+            "Amazigh": "ssarwal",
+            "Eng": "pants",
+            "Spaans": "pantalones",
+            "Frans": "pantalon",
+            "Duits": "Hose"
+        },
+        {
+            "Ned": "trui",
+            "Amazigh": "amaryul",
+            "Eng": "sweater",
+            "Spaans": "suéter",
+            "Frans": "chandail",
+            "Duits": "Pullover"
+        },
+        {
+            "Ned": "onderhemd",
+            "Amazigh": "camisita ",
+            "Eng": "undershirt",
+            "Spaans": "camiseta",
+            "Frans": "maillot de corps",
+            "Duits": "Unterhemd"
+        },
+        {
+            "Ned": "jas",
+            "Amazigh": "aqabud",
+            "Eng": "jacket",
+            "Spaans": "chaqueta",
+            "Frans": "veste",
+            "Duits": "Jacke"
+        },
+        {
+            "Ned": "schoenen",
+            "Amazigh": "tisila",
+            "Eng": "shoes",
+            "Spaans": "zapatos",
+            "Frans": "chaussures",
+            "Duits": "Schuhe"
+        },
+        {
+            "Ned": "laarzen",
+            "Amazigh": "ihakusen",
+            "Eng": "boots",
+            "Spaans": "botas",
+            "Frans": "bottes",
+            "Duits": "Stiefel"
+        },
+        {
+            "Ned": "muts",
+            "Amazigh": "tcaccict",
+            "Eng": "cap",
+            "Spaans": "gorro",
+            "Frans": "bonnet",
+            "Duits": "Kappe"
+        },
+        {
+            "Ned": "jurk",
+            "Amazigh": "tablust",
+            "Eng": "dress",
+            "Spaans": "vestido",
+            "Frans": "robe",
+            "Duits": "Kleid"
+        },
+        {
+            "Ned": "rok",
+            "Amazigh": "farda",
+            "Eng": "skirt",
+            "Spaans": "falda",
+            "Frans": "jupe",
+            "Duits": "Rock"
+        },
+        {
+            "Ned": "slippers",
+            "Amazigh": "tcinklat",
+            "Eng": "flip flops",
+            "Spaans": "chanclas",
+            "Frans": "claquette",
+            "Duits": "Flip Flops"
+        },
+        {
+            "Ned": "handschoenen",
+            "Amazigh": "iwantisan",
+            "Eng": "gloves",
+            "Spaans": "guantes",
+            "Frans": "gants",
+            "Duits": "Handschuhe"
+        },
+        {
+            "Ned": "sokken",
+            "Amazigh": "tqacir",
+            "Eng": "socks",
+            "Spaans": "calcetines",
+            "Frans": "chaussettes",
+            "Duits": "Socken"
+        },
+        {
+            "Ned": "overhemd",
+            "Amazigh": "taqmijjat",
+            "Eng": "shirt",
+            "Spaans": "camisa",
+            "Frans": "chemise",
+            "Duits": "Hemd"
+        },
+        {
+            "Ned": "sjaal",
+            "Amazigh": "ahewwak",
+            "Eng": "scarf",
+            "Spaans": "bufanda",
+            "Frans": "écharpe",
+            "Duits": "Schal"
+        },
+        {
+            "Ned": "riem",
+            "Amazigh": "abyas",
+            "Eng": "belt",
+            "Spaans": "cinturón",
+            "Frans": "ceinture",
+            "Duits": "Gürtel"
+        }
+    ],
+    "clima": [
+        {
+            "Ned": "lente",
+            "Amazigh": "tafsut",
+            "Eng": "spring ",
+            "Spaans": "primavera",
+            "Frans": "printemps",
+            "Duits": "Frühling"
+        },
+        {
+            "Ned": "zomer",
+            "Amazigh": "anebdu",
+            "Eng": "summer ",
+            "Spaans": "verano",
+            "Frans": "été",
+            "Duits": "Sommer"
+        },
+        {
+            "Ned": "herfst",
+            "Amazigh": "leiglief",
+            "Eng": "autumn ",
+            "Spaans": "otoño",
+            "Frans": "automne",
+            "Duits": "Herbst"
+        },
+        {
+            "Ned": "winter",
+            "Amazigh": "tajarst",
+            "Eng": "winter",
+            "Spaans": "invierno",
+            "Frans": "hiver",
+            "Duits": "Winter"
+        },
+        {
+            "Ned": "regen",
+            "Amazigh": "anẓar",
+            "Eng": "rain",
+            "Spaans": "lluvia",
+            "Frans": "pluie",
+            "Duits": "Regen"
+        },
+        {
+            "Ned": "sneeuw",
+            "Amazigh": "adfel",
+            "Eng": "snow",
+            "Spaans": "nieve",
+            "Frans": "neige",
+            "Duits": "Schnee"
+        },
+        {
+            "Ned": "wind",
+            "Amazigh": "asemmiḍ",
+            "Eng": "wind",
+            "Spaans": "viento",
+            "Frans": "vent",
+            "Duits": "Wind"
+        },
+        {
+            "Ned": "regenboog",
+            "Amazigh": "taslit n unzar",
+            "Eng": "rainbow",
+            "Spaans": "arco iris",
+            "Frans": "arc en ciel",
+            "Duits": "Regenbogen"
+        },
+        {
+            "Ned": "maan",
+            "Amazigh": "yur",
+            "Eng": "moon",
+            "Spaans": "luna",
+            "Frans": "lune",
+            "Duits": "Mond"
+        },
+        {
+            "Ned": "zon",
+            "Amazigh": "tfuct",
+            "Eng": "sun",
+            "Spaans": "sol",
+            "Frans": "soleil",
+            "Duits": "Sonne"
+        },
+        {
+            "Ned": "wassende maan",
+            "Amazigh": "taziri",
+            "Eng": "crescent",
+            "Spaans": "creciente",
+            "Frans": "croissant",
+            "Duits": "Halbmond"
+        },
+        {
+            "Ned": "donder",
+            "Amazigh": "ajjaj",
+            "Eng": "thunder",
+            "Spaans": "trueno",
+            "Frans": "tonnerre",
+            "Duits": "Donner"
+        },
+        {
+            "Ned": "ster",
+            "Amazigh": "itri",
+            "Eng": "star",
+            "Spaans": "estrella",
+            "Frans": "vedette",
+            "Duits": "Star"
+        },
+        {
+            "Ned": "mist",
+            "Amazigh": "tayyut",
+            "Eng": "fog",
+            "Spaans": "niebla",
+            "Frans": "brouillard",
+            "Duits": "Nebel"
+        },
+        {
+            "Ned": "wolken",
+            "Amazigh": "asinu",
+            "Eng": "clouds",
+            "Spaans": "nubes",
+            "Frans": "nuages",
+            "Duits": "Wolken"
+        }
+    ],
+    "colores": [
+        {
+            "Ned": "rood",
+            "Amazigh": "azegg-aɣ",
+            "Eng": "red ",
+            "Spaans": "rojo",
+            "Frans": "rouge",
+            "Duits": "rot"
+        },
+        {
+            "Ned": "geel",
+            "Amazigh": "awraɣ",
+            "Eng": "yellow ",
+            "Spaans": "amarillo",
+            "Frans": "jaune",
+            "Duits": "gelb"
+        },
+        {
+            "Ned": "blauw",
+            "Amazigh": "aḥmaymi ",
+            "Eng": "blue ",
+            "Spaans": "azul",
+            "Frans": "bleu",
+            "Duits": "blau"
+        },
+        {
+            "Ned": "zwart",
+            "Amazigh": "abarcan",
+            "Eng": "black ",
+            "Spaans": "negro",
+            "Frans": "noir",
+            "Duits": "schwarz"
+        },
+        {
+            "Ned": "wit",
+            "Amazigh": "acemlal",
+            "Eng": "white ",
+            "Spaans": "blanco",
+            "Frans": "blanc",
+            "Duits": "weiß"
+        },
+        {
+            "Ned": "bruin",
+            "Amazigh": "ahemruni",
+            "Eng": "brown ",
+            "Spaans": "marrón",
+            "Frans": "brun",
+            "Duits": "braun"
+        },
+        {
+            "Ned": "groen",
+            "Amazigh": "aziza ",
+            "Eng": "green ",
+            "Spaans": "verde",
+            "Frans": "vert",
+            "Duits": "grün"
+        },
+        {
+            "Ned": "oranje",
+            "Amazigh": "aletcini",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "orange"
+        },
+        {
+            "Ned": "bont",
+            "Amazigh": "akarkac",
+            "Eng": "colourful",
+            "Spaans": "vistoso",
+            "Frans": "coloré",
+            "Duits": "bunt"
+        },
+        {
+            "Ned": "paars",
+            "Amazigh": "azbaybi ",
+            "Eng": "purple",
+            "Spaans": "morado",
+            "Frans": "mauve",
+            "Duits": "lila"
+        }
+    ],
+    "animaux01": [
+        {
+            "Ned": "ezel",
+            "Amazigh": "aɣyul",
+            "Eng": "donkey ",
+            "Spaans": "burro",
+            "Frans": "âne",
+            "Duits": "Esel"
+        },
+        {
+            "Ned": "paard",
+            "Amazigh": "ayis",
+            "Eng": "horse ",
+            "Spaans": "caballo",
+            "Frans": "cheval",
+            "Duits": "Pferd"
+        },
+        {
+            "Ned": "schaap",
+            "Amazigh": "icerri",
+            "Eng": "sheep ",
+            "Spaans": "oveja",
+            "Frans": "mouton",
+            "Duits": "Schaf"
+        },
+        {
+            "Ned": "geit",
+            "Amazigh": "tɣaṭṭ",
+            "Eng": "goat ",
+            "Spaans": "cabra",
+            "Frans": "chèvre",
+            "Duits": "Ziege"
+        },
+        {
+            "Ned": "kip",
+            "Amazigh": "tyaziḍt",
+            "Eng": "chicken ",
+            "Spaans": "pollo",
+            "Frans": "poulet",
+            "Duits": "Huhn"
+        },
+        {
+            "Ned": "konijn",
+            "Amazigh": "aqninni",
+            "Eng": "rabbit ",
+            "Spaans": "conejo",
+            "Frans": "lapin",
+            "Duits": "Kaninchen"
+        },
+        {
+            "Ned": "koe",
+            "Amazigh": "tafunast",
+            "Eng": "cow ",
+            "Spaans": "vaca",
+            "Frans": "vache",
+            "Duits": "Kuh"
+        },
+        {
+            "Ned": "hond",
+            "Amazigh": "ayḍi",
+            "Eng": "dog",
+            "Spaans": "perro",
+            "Frans": "chien",
+            "Duits": "Hund"
+        },
+        {
+            "Ned": "vogel",
+            "Amazigh": "agḍiḍ",
+            "Eng": "bird ",
+            "Spaans": "pájaro",
+            "Frans": "oiseau",
+            "Duits": "Vogel"
+        },
+        {
+            "Ned": "kat",
+            "Amazigh": "mucc",
+            "Eng": "cat",
+            "Spaans": "gato",
+            "Frans": "chat",
+            "Duits": "Katze"
+        },
+        {
+            "Ned": "muis",
+            "Amazigh": "aɣerda",
+            "Eng": "mouse ",
+            "Spaans": "ratón",
+            "Frans": "souris",
+            "Duits": "Maus"
+        },
+        {
+            "Ned": "egel",
+            "Amazigh": "insi",
+            "Eng": "hedgehog ",
+            "Spaans": "erizo",
+            "Frans": "hérisson",
+            "Duits": "Igel"
+        },
+        {
+            "Ned": "vis",
+            "Amazigh": "aslem",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "kikker",
+            "Amazigh": "aqaqriw",
+            "Eng": "frog",
+            "Spaans": "rana",
+            "Frans": "grenouille",
+            "Duits": "Frosch"
+        },
+        {
+            "Ned": "jakhals",
+            "Amazigh": "uccen",
+            "Eng": "jackal ",
+            "Spaans": "chacal",
+            "Frans": "chacal",
+            "Duits": "Schakal"
+        }
+    ],
+    "insectos": [
+        {
+            "Ned": "slak",
+            "Amazigh": "aɣlal ",
+            "Eng": "snail ",
+            "Spaans": "caracol",
+            "Frans": "escargot",
+            "Duits": "Schnecke"
+        },
+        {
+            "Ned": "regenworm",
+            "Amazigh": "adan n tmurt ",
+            "Eng": "earthworm ",
+            "Spaans": "lombriz",
+            "Frans": "ver de terre",
+            "Duits": "Regenwurm"
+        },
+        {
+            "Ned": "larve",
+            "Amazigh": "takecca",
+            "Eng": "larva ",
+            "Spaans": "larva",
+            "Frans": "larve",
+            "Duits": "Larve"
+        },
+        {
+            "Ned": "vlieg",
+            "Amazigh": "iẓi",
+            "Eng": "fly",
+            "Spaans": "mosca",
+            "Frans": "mouche",
+            "Duits": "Fliege"
+        },
+        {
+            "Ned": "bij",
+            "Amazigh": "zizwit",
+            "Eng": "bee ",
+            "Spaans": "abeja",
+            "Frans": "abeille",
+            "Duits": "Biene"
+        },
+        {
+            "Ned": "mug",
+            "Amazigh": "nnamus",
+            "Eng": "mosquito ",
+            "Spaans": "mosquito",
+            "Frans": "moustique",
+            "Duits": "Mücke"
+        },
+        {
+            "Ned": "mier",
+            "Amazigh": "tikedfet",
+            "Eng": "ant ",
+            "Spaans": "hormiga",
+            "Frans": "fourmi",
+            "Duits": "Ameise"
+        },
+        {
+            "Ned": "vlinder",
+            "Amazigh": "aferṭṭu",
+            "Eng": "butterfly ",
+            "Spaans": "mariposa",
+            "Frans": "papillon",
+            "Duits": "Schmetterling"
+        },
+        {
+            "Ned": "spin",
+            "Amazigh": "qundɣa ",
+            "Eng": "spider ",
+            "Spaans": "araña",
+            "Frans": "araignée",
+            "Duits": "Spinne"
+        },
+        {
+            "Ned": "sprinkhaan",
+            "Amazigh": "burxes",
+            "Eng": "grasshopper ",
+            "Spaans": "saltamontes",
+            "Frans": "sauterelle",
+            "Duits": "Heuschrecke"
+        },
+        {
+            "Ned": "rups",
+            "Amazigh": "bugḍif",
+            "Eng": "caterpillar",
+            "Spaans": "oruga",
+            "Frans": "chenille",
+            "Duits": "Raupe"
+        },
+        {
+            "Ned": "wesp",
+            "Amazigh": "yaẓẓa",
+            "Eng": "wasp",
+            "Spaans": "avispa",
+            "Frans": "guêpe",
+            "Duits": "Wespe"
+        },
+        {
+            "Ned": "naaktslak",
+            "Amazigh": "buccel ",
+            "Eng": "slug",
+            "Spaans": "babosa",
+            "Frans": "limace",
+            "Duits": "Nacktschnecke"
+        },
+        {
+            "Ned": "bloedzuiger",
+            "Amazigh": "tiḍḍa",
+            "Eng": "leech",
+            "Spaans": "sanguijuela",
+            "Frans": "sangsue",
+            "Duits": "Blutsauger"
+        },
+        {
+            "Ned": "bidsprinkhaan",
+            "Amazigh": "tamraebt",
+            "Eng": "mantis",
+            "Spaans": "mantis",
+            "Frans": "mante",
+            "Duits": "Gottesanbeterin"
+        }
+    ],
+    "légume": [
+        {
+            "Ned": "kikkererwten",
+            "Amazigh": "rḥimez",
+            "Eng": "chickpeas ",
+            "Spaans": "garbanzos",
+            "Frans": "pois chiches",
+            "Duits": "Kichererbsen"
+        },
+        {
+            "Ned": "linzen",
+            "Amazigh": "leɛdes",
+            "Eng": "lentils ",
+            "Spaans": "lentejas",
+            "Frans": "lentilles",
+            "Duits": "Linsen"
+        },
+        {
+            "Ned": "bonen",
+            "Amazigh": "llubeyyet",
+            "Eng": "beans ",
+            "Spaans": "frijoles",
+            "Frans": "haricots",
+            "Duits": "Bohnen"
+        },
+        {
+            "Ned": "tomaat",
+            "Amazigh": "ttumatic",
+            "Eng": "tomato ",
+            "Spaans": "tomate",
+            "Frans": "tomate",
+            "Duits": "Tomate"
+        },
+        {
+            "Ned": "olijven",
+            "Amazigh": "zzitun",
+            "Eng": "olives ",
+            "Spaans": "aceitunas",
+            "Frans": "olives",
+            "Duits": "Oliven"
+        },
+        {
+            "Ned": "aardappel",
+            "Amazigh": "baṭaṭa",
+            "Eng": "potato ",
+            "Spaans": "patata ",
+            "Frans": "pomme de terre",
+            "Duits": "Kartoffel"
+        },
+        {
+            "Ned": "ui",
+            "Amazigh": "rebser",
+            "Eng": "onion ",
+            "Spaans": "cebolla",
+            "Frans": "oignon",
+            "Duits": "Zwiebel"
+        },
+        {
+            "Ned": "knoflook",
+            "Amazigh": "ticcart",
+            "Eng": "garlic ",
+            "Spaans": "ajo",
+            "Frans": "ail",
+            "Duits": "Knoblauch"
+        },
+        {
+            "Ned": "maïs",
+            "Amazigh": "dra",
+            "Eng": "corn ",
+            "Spaans": "maíz",
+            "Frans": "maïs",
+            "Duits": "Mais"
+        },
+        {
+            "Ned": "paprika",
+            "Amazigh": "rferfer",
+            "Eng": "bell pepper ",
+            "Spaans": "pimiento",
+            "Frans": "poivron",
+            "Duits": "Paprika"
+        },
+        {
+            "Ned": "pompoen",
+            "Amazigh": "taxsact",
+            "Eng": "pumpkin ",
+            "Spaans": "calabaza",
+            "Frans": "citrouille",
+            "Duits": "Kürbis"
+        },
+        {
+            "Ned": "wortel",
+            "Amazigh": "xizzu",
+            "Eng": "carrot",
+            "Spaans": "zanahoria",
+            "Frans": "carotte",
+            "Duits": "Karotte"
+        },
+        {
+            "Ned": "(dop)erwten",
+            "Amazigh": "tinifin",
+            "Eng": "peas",
+            "Spaans": "chícharos",
+            "Frans": "petit pois",
+            "Duits": "Erbsen"
+        },
+        {
+            "Ned": "tuinbonen",
+            "Amazigh": "ibawen",
+            "Eng": "broad beans",
+            "Spaans": "habas",
+            "Frans": "fèves",
+            "Duits": "Saubohnen"
+        },
+        {
+            "Ned": "spinazie",
+            "Amazigh": "ṭebi ",
+            "Eng": "spinach ",
+            "Spaans": "espinacas",
+            "Frans": "épinards",
+            "Duits": "Spinat"
+        }
+    ],
+    "animaux02": [
+        {
+            "Ned": "patrijs",
+            "Amazigh": "asekkur",
+            "Eng": "partridge ",
+            "Spaans": "perdiz",
+            "Frans": "perdrix",
+            "Duits": "Rebhuhn"
+        },
+        {
+            "Ned": "uil",
+            "Amazigh": "muka",
+            "Eng": "owl ",
+            "Spaans": "búho",
+            "Frans": "chouette",
+            "Duits": "Eule"
+        },
+        {
+            "Ned": "gekko",
+            "Amazigh": "aḥamchel ",
+            "Eng": "gecko ",
+            "Spaans": "geco",
+            "Frans": "gecko",
+            "Duits": "Gecko"
+        },
+        {
+            "Ned": "schorpioen",
+            "Amazigh": "tɣirdent  ",
+            "Eng": "scorpion ",
+            "Spaans": "escorpión",
+            "Frans": "scorpion",
+            "Duits": "Skorpion"
+        },
+        {
+            "Ned": "stekelvarken",
+            "Amazigh": "aruy",
+            "Eng": "porcupine ",
+            "Spaans": "puerco espín",
+            "Frans": "porc-épic",
+            "Duits": "Stachelschwein"
+        },
+        {
+            "Ned": "haas",
+            "Amazigh": "ayaṛziz",
+            "Eng": "hare ",
+            "Spaans": "liebre",
+            "Frans": "lièvre",
+            "Duits": "Hase"
+        },
+        {
+            "Ned": "vos",
+            "Amazigh": "icɛb",
+            "Eng": "fox ",
+            "Spaans": "zorro",
+            "Frans": "renard",
+            "Duits": "Fuchs"
+        },
+        {
+            "Ned": "windhond",
+            "Amazigh": "uccay",
+            "Eng": "greyhound ",
+            "Spaans": "galgo",
+            "Frans": "levrette",
+            "Duits": "Windhund"
+        },
+        {
+            "Ned": "hyena",
+            "Amazigh": "ifis",
+            "Eng": "hyena ",
+            "Spaans": "hiena",
+            "Frans": "hyène",
+            "Duits": "Hyäne"
+        },
+        {
+            "Ned": "wild_zwijn",
+            "Amazigh": "ilf",
+            "Eng": "boar",
+            "Spaans": "jabali",
+            "Frans": "sanglier",
+            "Duits": "Wildschwein"
+        },
+        {
+            "Ned": "slang",
+            "Amazigh": "afiɣra",
+            "Eng": "snake (viper)",
+            "Spaans": "serpiente (víbora)",
+            "Frans": "serpent (vipère)",
+            "Duits": "Schlange (Viper)"
+        },
+        {
+            "Ned": "schildpad",
+            "Amazigh": "icfar ",
+            "Eng": "turtle ",
+            "Spaans": "tortuga",
+            "Frans": "tortue",
+            "Duits": "Schildkröte"
+        },
+        {
+            "Ned": "kameleon",
+            "Amazigh": "tata",
+            "Eng": "chameleon ",
+            "Spaans": "camaleón",
+            "Frans": "caméléon",
+            "Duits": "Chamäleon"
+        },
+        {
+            "Ned": "zwaluw",
+            "Amazigh": "tiflillest",
+            "Eng": "swallow ",
+            "Spaans": "golondrina",
+            "Frans": "hirondelle",
+            "Duits": "Schwalbe "
+        },
+        {
+            "Ned": "duif",
+            "Amazigh": "adbir",
+            "Eng": "pigeon ",
+            "Spaans": "paloma",
+            "Frans": "pigeon",
+            "Duits": "Taube"
+        }
+    ],
+    "manger": [
+        {
+            "Ned": "eieren",
+            "Amazigh": "timejjalin",
+            "Eng": "eggs",
+            "Spaans": "huevos",
+            "Frans": "œufs",
+            "Duits": "Eier"
+        },
+        {
+            "Ned": "olie",
+            "Amazigh": "zzict",
+            "Eng": "oil",
+            "Spaans": "aceite",
+            "Frans": "huile",
+            "Duits": "Öl"
+        },
+        {
+            "Ned": "koekjes",
+            "Amazigh": "ɣayiṭa",
+            "Eng": "cookies",
+            "Spaans": "galletas",
+            "Frans": "biscuits",
+            "Duits": "Kekse"
+        },
+        {
+            "Ned": "thee",
+            "Amazigh": "atay",
+            "Eng": "tea",
+            "Spaans": "té",
+            "Frans": "thé",
+            "Duits": "Tee"
+        },
+        {
+            "Ned": "koffie",
+            "Amazigh": "rqehwa",
+            "Eng": "coffee",
+            "Spaans": "café",
+            "Frans": "café",
+            "Duits": "Kaffee"
+        },
+        {
+            "Ned": "melk",
+            "Amazigh": "aɣi",
+            "Eng": "milk",
+            "Spaans": "leche",
+            "Frans": "lait",
+            "Duits": "Milch"
+        },
+        {
+            "Ned": "yoghurt",
+            "Amazigh": "accil",
+            "Eng": "yogurt",
+            "Spaans": "yogur",
+            "Frans": "yaourt",
+            "Duits": "Joghurt"
+        },
+        {
+            "Ned": "water",
+            "Amazigh": "aman",
+            "Eng": "water",
+            "Spaans": "agua",
+            "Frans": "eau",
+            "Duits": "Wasser"
+        },
+        {
+            "Ned": "brood",
+            "Amazigh": "aɣrum",
+            "Eng": "bread",
+            "Spaans": "pan",
+            "Frans": "pain",
+            "Duits": "Brot"
+        },
+        {
+            "Ned": "honing",
+            "Amazigh": "tamment",
+            "Eng": "honey",
+            "Spaans": "miel",
+            "Frans": "miel",
+            "Duits": "Honig"
+        },
+        {
+            "Ned": "suiker",
+            "Amazigh": "sseqqur",
+            "Eng": "sugar",
+            "Spaans": "azúcar",
+            "Frans": "sucre",
+            "Duits": "Zucker"
+        },
+        {
+            "Ned": "zout",
+            "Amazigh": "tamellaḥt",
+            "Eng": "salt",
+            "Spaans": "sal",
+            "Frans": "sel",
+            "Duits": "Salz"
+        },
+        {
+            "Ned": "vlees",
+            "Amazigh": "aysum",
+            "Eng": "meat",
+            "Spaans": "carne",
+            "Frans": "viande",
+            "Duits": "Fleisch"
+        },
+        {
+            "Ned": "vissen",
+            "Amazigh": "iselman",
+            "Eng": "fish ",
+            "Spaans": "pescado",
+            "Frans": "poisson",
+            "Duits": "Fisch"
+        },
+        {
+            "Ned": "boter",
+            "Amazigh": "ddhen",
+            "Eng": "butter",
+            "Spaans": "mantequilla",
+            "Frans": "beurre",
+            "Duits": "Butter"
+        }
+    ],
+    "vetements": [
+        {
+            "Ned": "broek",
+            "Amazigh": "ssarwal",
+            "Eng": "pants",
+            "Spaans": "pantalones",
+            "Frans": "pantalon",
+            "Duits": "Hose"
+        },
+        {
+            "Ned": "trui",
+            "Amazigh": "amaryul",
+            "Eng": "sweater",
+            "Spaans": "suéter",
+            "Frans": "chandail",
+            "Duits": "Pullover"
+        },
+        {
+            "Ned": "onderhemd",
+            "Amazigh": "camisita ",
+            "Eng": "undershirt",
+            "Spaans": "camiseta",
+            "Frans": "maillot de corps",
+            "Duits": "Unterhemd"
+        },
+        {
+            "Ned": "jas",
+            "Amazigh": "aqabud",
+            "Eng": "jacket",
+            "Spaans": "chaqueta",
+            "Frans": "veste",
+            "Duits": "Jacke"
+        },
+        {
+            "Ned": "schoenen",
+            "Amazigh": "tisila",
+            "Eng": "shoes",
+            "Spaans": "zapatos",
+            "Frans": "chaussures",
+            "Duits": "Schuhe"
+        },
+        {
+            "Ned": "laarzen",
+            "Amazigh": "ihakusen",
+            "Eng": "boots",
+            "Spaans": "botas",
+            "Frans": "bottes",
+            "Duits": "Stiefel"
+        },
+        {
+            "Ned": "muts",
+            "Amazigh": "tcaccict",
+            "Eng": "cap",
+            "Spaans": "gorro",
+            "Frans": "bonnet",
+            "Duits": "Kappe"
+        },
+        {
+            "Ned": "jurk",
+            "Amazigh": "tablust",
+            "Eng": "dress",
+            "Spaans": "vestido",
+            "Frans": "robe",
+            "Duits": "Kleid"
+        },
+        {
+            "Ned": "rok",
+            "Amazigh": "farda",
+            "Eng": "skirt",
+            "Spaans": "falda",
+            "Frans": "jupe",
+            "Duits": "Rock"
+        },
+        {
+            "Ned": "slippers",
+            "Amazigh": "tcinklat",
+            "Eng": "flip flops",
+            "Spaans": "chanclas",
+            "Frans": "claquette",
+            "Duits": "Flip Flops"
+        },
+        {
+            "Ned": "handschoenen",
+            "Amazigh": "iwantisan",
+            "Eng": "gloves",
+            "Spaans": "guantes",
+            "Frans": "gants",
+            "Duits": "Handschuhe"
+        },
+        {
+            "Ned": "sokken",
+            "Amazigh": "tqacir",
+            "Eng": "socks",
+            "Spaans": "calcetines",
+            "Frans": "chaussettes",
+            "Duits": "Socken"
+        },
+        {
+            "Ned": "overhemd",
+            "Amazigh": "taqmijjat",
+            "Eng": "shirt",
+            "Spaans": "camisa",
+            "Frans": "chemise",
+            "Duits": "Hemd"
+        },
+        {
+            "Ned": "sjaal",
+            "Amazigh": "ahewwak",
+            "Eng": "scarf",
+            "Spaans": "bufanda",
+            "Frans": "écharpe",
+            "Duits": "Schal"
+        },
+        {
+            "Ned": "riem",
+            "Amazigh": "abyas",
+            "Eng": "belt",
+            "Spaans": "cinturón",
+            "Frans": "ceinture",
+            "Duits": "Gürtel"
+        }
+    ],
+    "lamétéo": [
+        {
+            "Ned": "lente",
+            "Amazigh": "tafsut",
+            "Eng": "spring ",
+            "Spaans": "primavera",
+            "Frans": "printemps",
+            "Duits": "Frühling"
+        },
+        {
+            "Ned": "zomer",
+            "Amazigh": "anebdu",
+            "Eng": "summer ",
+            "Spaans": "verano",
+            "Frans": "été",
+            "Duits": "Sommer"
+        },
+        {
+            "Ned": "herfst",
+            "Amazigh": "leiglief",
+            "Eng": "autumn ",
+            "Spaans": "otoño",
+            "Frans": "automne",
+            "Duits": "Herbst"
+        },
+        {
+            "Ned": "winter",
+            "Amazigh": "tajarst",
+            "Eng": "winter",
+            "Spaans": "invierno",
+            "Frans": "hiver",
+            "Duits": "Winter"
+        },
+        {
+            "Ned": "regen",
+            "Amazigh": "anẓar",
+            "Eng": "rain",
+            "Spaans": "lluvia",
+            "Frans": "pluie",
+            "Duits": "Regen"
+        },
+        {
+            "Ned": "sneeuw",
+            "Amazigh": "adfel",
+            "Eng": "snow",
+            "Spaans": "nieve",
+            "Frans": "neige",
+            "Duits": "Schnee"
+        },
+        {
+            "Ned": "wind",
+            "Amazigh": "asemmiḍ",
+            "Eng": "wind",
+            "Spaans": "viento",
+            "Frans": "vent",
+            "Duits": "Wind"
+        },
+        {
+            "Ned": "regenboog",
+            "Amazigh": "taslit n unzar",
+            "Eng": "rainbow",
+            "Spaans": "arco iris",
+            "Frans": "arc en ciel",
+            "Duits": "Regenbogen"
+        },
+        {
+            "Ned": "maan",
+            "Amazigh": "yur",
+            "Eng": "moon",
+            "Spaans": "luna",
+            "Frans": "lune",
+            "Duits": "Mond"
+        },
+        {
+            "Ned": "zon",
+            "Amazigh": "tfuct",
+            "Eng": "sun",
+            "Spaans": "sol",
+            "Frans": "soleil",
+            "Duits": "Sonne"
+        },
+        {
+            "Ned": "wassende maan",
+            "Amazigh": "taziri",
+            "Eng": "crescent",
+            "Spaans": "creciente",
+            "Frans": "croissant",
+            "Duits": "Halbmond"
+        },
+        {
+            "Ned": "donder",
+            "Amazigh": "ajjaj",
+            "Eng": "thunder",
+            "Spaans": "trueno",
+            "Frans": "tonnerre",
+            "Duits": "Donner"
+        },
+        {
+            "Ned": "ster",
+            "Amazigh": "itri",
+            "Eng": "star",
+            "Spaans": "estrella",
+            "Frans": "vedette",
+            "Duits": "Star"
+        },
+        {
+            "Ned": "mist",
+            "Amazigh": "tayyut",
+            "Eng": "fog",
+            "Spaans": "niebla",
+            "Frans": "brouillard",
+            "Duits": "Nebel"
+        },
+        {
+            "Ned": "wolken",
+            "Amazigh": "asinu",
+            "Eng": "clouds",
+            "Spaans": "nubes",
+            "Frans": "nuages",
+            "Duits": "Wolken"
+        }
+    ],
+    "couleurs": [
+        {
+            "Ned": "rood",
+            "Amazigh": "azegg-aɣ",
+            "Eng": "red ",
+            "Spaans": "rojo",
+            "Frans": "rouge",
+            "Duits": "rot"
+        },
+        {
+            "Ned": "geel",
+            "Amazigh": "awraɣ",
+            "Eng": "yellow ",
+            "Spaans": "amarillo",
+            "Frans": "jaune",
+            "Duits": "gelb"
+        },
+        {
+            "Ned": "blauw",
+            "Amazigh": "aḥmaymi ",
+            "Eng": "blue ",
+            "Spaans": "azul",
+            "Frans": "bleu",
+            "Duits": "blau"
+        },
+        {
+            "Ned": "zwart",
+            "Amazigh": "abarcan",
+            "Eng": "black ",
+            "Spaans": "negro",
+            "Frans": "noir",
+            "Duits": "schwarz"
+        },
+        {
+            "Ned": "wit",
+            "Amazigh": "acemlal",
+            "Eng": "white ",
+            "Spaans": "blanco",
+            "Frans": "blanc",
+            "Duits": "weiß"
+        },
+        {
+            "Ned": "bruin",
+            "Amazigh": "ahemruni",
+            "Eng": "brown ",
+            "Spaans": "marrón",
+            "Frans": "brun",
+            "Duits": "braun"
+        },
+        {
+            "Ned": "groen",
+            "Amazigh": "aziza ",
+            "Eng": "green ",
+            "Spaans": "verde",
+            "Frans": "vert",
+            "Duits": "grün"
+        },
+        {
+            "Ned": "oranje",
+            "Amazigh": "aletcini",
+            "Eng": "orange ",
+            "Spaans": "naranja",
+            "Frans": "orange",
+            "Duits": "orange"
+        },
+        {
+            "Ned": "bont",
+            "Amazigh": "akarkac",
+            "Eng": "colourful",
+            "Spaans": "vistoso",
+            "Frans": "coloré",
+            "Duits": "bunt"
+        },
+        {
+            "Ned": "paars",
+            "Amazigh": "azbaybi ",
+            "Eng": "purple",
+            "Spaans": "morado",
+            "Frans": "mauve",
+            "Duits": "lila"
+        }
+    ]
+}
