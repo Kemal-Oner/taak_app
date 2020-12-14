@@ -70,6 +70,12 @@ class _playScreenState extends State<playScreen> {
   }
 
   Widget getContent() {
+    @override
+    void initState() {
+      Future myFuture = _getPlayCategories();
+      super.initState();
+    }
+
     return FutureBuilder(
       future: _getPlayCategories(),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
@@ -133,15 +139,10 @@ class _playScreenState extends State<playScreen> {
 
   Widget getAnswerText(AsyncSnapshot snapshot) {
     int randomNumber = random.nextInt(11);
-    if(answerArray.length < 2) {
+    if (answerArray.length < 2) {
       answerArray.add(randomNumber);
       answerArray.add(snapshot.data[randomNumber].ned);
-      print('jowed');
-      print(answerArray.length);
-      print('jowed');
     }
-    print(answerArray.length);
-    print(answerArray);
     preventMulti = 0;
     return new Text(
       snapshot.data[answerArray[0]].amazigh,
@@ -155,32 +156,37 @@ class _playScreenState extends State<playScreen> {
 
   int indexOfAnswer;
   List pictureArray = [];
-
+  // List testArray = [];
+  int testing = 0;
 
   Widget pictureBuilder(AsyncSnapshot snapshot) {
     if (preventMulti == 0) {
-      int answer = answerArray[answerArray.length - 2];
-      pictureArray = List.from(allIds);
-      while (pictureArray.length > 6) {
-        int index = random.nextInt(pictureArray.length);
-        pictureArray.removeAt(index);
+      if (testing == 0) {
+        int answer = answerArray[answerArray.length - 2];
+        pictureArray = List.from(allIds);
+        while (pictureArray.length > 6) {
+          int index = random.nextInt(pictureArray.length);
+          pictureArray.removeAt(index);
+        }
+        if (!pictureArray.contains(answer)) {
+          int index = random.nextInt(pictureArray.length);
+          pictureArray.removeAt(index);
+          pictureArray.add(answer);
+        }
+        pictureArray.shuffle();
+        print(answer);
+        print(pictureArray.toString());
+        indexOfAnswer = pictureArray.indexOf(answer);
+        preventMulti++;
       }
-      if (!pictureArray.contains(answer)) {
-        int index = random.nextInt(pictureArray.length);
-        pictureArray.removeAt(index);
-        pictureArray.add(answer);
-      }
-      pictureArray.shuffle();
-      print(pictureArray.toString());
-      indexOfAnswer = pictureArray.indexOf(answer);
-      print('asdasdasddas');
-      print(indexOfAnswer);
-      // print(pictureArray.length);
-      // print('aaaaaaa');
-      preventMulti++;
     }
     int randomizer = random.nextInt(pictureArray.length);
-    // print('aaaaaaa');
+    // while (testArray.contains(randomizer)) {
+    //   randomizer = random.nextInt(pictureArray.length);
+    // }
+    // if (!testArray.contains(randomizer)) {
+    //   testArray.add(randomizer);
+    // }
     print(randomizer);
 //    while (allIds.length > 6) {
 //      allIds.removeAt(3);
@@ -217,6 +223,7 @@ class _playScreenState extends State<playScreen> {
           setState(() {
             answerArray.clear();
             pictureArray.clear();
+            // testArray.clear();
             preventMulti = 0;
             allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
             tryCount = 0;
@@ -225,7 +232,7 @@ class _playScreenState extends State<playScreen> {
           tryCount += 1;
           if (tryCount == 3) {
             Fluttertoast.showToast(
-                msg: "Je hebt 3 keer geprobeerd a sbe3, volgende ..",
+                msg: "Je hebt 3 keer geprobeerd, nieuw woordje!",
                 toastLength: Toast.LENGTH_SHORT,
                 gravity: ToastGravity.BOTTOM,
                 timeInSecForIosWeb: 1,
@@ -235,8 +242,9 @@ class _playScreenState extends State<playScreen> {
             setState(() {
               answerArray.clear();
               pictureArray.clear();
-              preventMulti = 0;
+              // testArray.clear();
               allIds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+              preventMulti = 0;
               tryCount = 0;
             });
           } else {
